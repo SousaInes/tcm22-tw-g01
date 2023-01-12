@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml id="MLBTeams">
+    <div id="wrapper">
+        <MLB>
+            <div id="button1">
+                <AL id="01">
+                    <name>Houston Astros</name>
+                    <division>AL West</division>
+                    <leagueStandings>01</leagueStandings>
+                    <logo>./logos/Astros.png</logo>
+                    <website>https://www.mlb.com/astros</website>
+                </AL>
+            </div>
+            <div id="button2">
+                <AL id="02">
+                    <name>New York Yankees</name>
+                    <division>AL East</division>
+                    <leagueStandings>02</leagueStandings>
+                    <logo>./logos/Yankees.png</logo>
+                    <website>https://www.mlb.com/yankees</website>
+                </AL>
+            </div>
+            <div id="button3">
+
+                <AL id="03">
+                    <name>Cleveland Guardians</name>
+                    <division>AL Central</division>
+                    <leagueStandings>03</leagueStandings>
+                    <logo>./logos/Guardians.png</logo>
+                    <website>https://www.mlb.com/guardians</website>
+                </AL>
+            </div>
+            <div id="button4">
+
+                <AL id="04">
+                    <name>Toronto Blue Jays</name>
+                    <division>AL East</division>
+                    <leagueStandings>04</leagueStandings>
+                    <logo>./logos/Blue_Jays.png</logo>
+                    <website>https://www.mlb.com/bluejays</website>
+                </AL>
+            </div>
+            <div id="button5">
+
+                <AL id="05">
+                    <name>Seattle Mariners</name>
+                    <division>AL West</division>
+                    <leagueStandings>05</leagueStandings>
+                    <logo>./logos/Mariners.png</logo>
+                    <website>https://www.mlb.com/mariners</website>
+                </AL>
+            </div>
+            <div id="button6">
+
+                <AL id="06">
+                    <name>Tampa Bay Rays</name>
+                    <division>AL East</division>
+                    <leagueStandings>06</leagueStandings>
+                    <logo>./logos/Tampa_Bay.png</logo>
+                    <website>https://www.mlb.com/rays</website>
+                </AL>
+            </div>
+            <div id="button7">
+            <AL id="07">
+                <name>Baltimore Orioles</name>
+                <division>AL East</division>
+                <leagueStandings>07</leagueStandings>
+                <logo>./logos/Orioles.png</logo>
+                <website>https://www.mlb.com/orioles</website>
+            </AL>
+            </div>
+            <div id="button8">
+            <AL id="08">
+                <name>Chicago White Sox</name>
+                <division>AL Central</division>
+                <leagueStandings>08</leagueStandings>
+                <logo>./logos/White_Sox.png</logo>
+                <website>https://www.mlb.com/whitesox</website>
+            </AL>
+            </div>
+            <div id="button9">
+            <AL id="09">
+                <name>Boston Red Sox</name>
+                <division>AL East</division>
+                <leagueStandings>09</leagueStandings>
+                <logo>./logos/Red_Sox.png</logo>
+                <website>https://www.mlb.com/redsox</website>
+            </AL>
+            </div>
+            <div id="button10">
+            <AL id="10">
+                <name>Minnesota Twins</name>
+                <division>AL Central</division>
+                <leagueStandings>10</leagueStandings>
+                <logo>./logos/Twins.png</logo>
+                <website>https://www.mlb.com/twins</website>
+            </AL>
+            </div>
+            <div id="button11">
+            <AL id="11">
+                <name>Los Angeles Angels</name>
+                <division>AL West</division>
+                <leagueStandings>11</leagueStandings>
+                <logo>./logos/Angels.png</logo>
+                <website>https://www.mlb.com/angels</website>
+            </AL>
+            </div>
+            <div id="button12">
+            <AL id="12">
+                <name>Texas Rangers</name>
+                <division>AL West</division>
+                <leagueStandings>12</leagueStandings>
+                <logo>./logos/Rangers.png</logo>
+                <website>https://www.mlb.com/rangers</website>
+            </AL>
+            </div>
+            <div id="button13">
+            <AL id="13">
+                <name>Detroit Tigers</name>
+                <division>AL Central</division>
+                <leagueStandings>13</leagueStandings>
+                <logo>./logos/Tigers.png</logo>
+                <website>https://www.mlb.com/tigers</website>
+            </AL>
+            </div>
+            <div id="button14">
+            <AL id="14">
+                <name>Kansas City Royals</name>
+                <division>AL Central</division>
+                <leagueStandings>14</leagueStandings>
+                <logo>./logos/Royals.png</logo>
+                <website>https://www.mlb.com/royals</website>
+            </AL>
+            </div>
+            <div id="button15">
+            <AL id="15">
+                <name>Oakland Athletics</name>
+                <division>AL West</division>
+                <leagueStandings>15</leagueStandings>
+                <logo>./logos/Athletics.png</logo>
+                <website>https://www.mlb.com/athletics</website>
+            </AL>
+            </div>
+            <div id="button16">
+            <NL id="16">
+                <name>Los Angeles Dodgers</name>
+                <division>NL West</division>
+                <leagueStandings>01</leagueStandings>
+                <logo>./logos/Dodgers.png</logo>
+                <website>https://www.mlb.com/dodgers</website>
+            </NL>
+            </div>
+            <div id="button17">
+            <NL id="17">
+                <name>Atlanta Braves</name>
+                <division>NL East</division>
+                <leagueStandings>02</leagueStandings>
+                <logo>./logos/Braves.png</logo>
+                <website>https://www.mlb.com/braves</website>
+            </NL>
+            </div>
+            <div id="button18">
+            <NL id="18">
+                <name>New York Mets</name>
+                <division>NL East</division>
+                <leagueStandings>02</leagueStandings>
+                <logo>./logos/Mets.png</logo>
+                <website>https://www.mlb.com/mets</website>
+            </NL>
+            </div>
+            <div id="button19">
+            <NL id="19">
+                <name>St. Louis Cardinals</name>
+                <division>NL Central</division>
+                <leagueStandings>04</leagueStandings>
+                <logo>./logos/Cardinals.png</logo>
+                <website>https://www.mlb.com/cardinals</website>
+            </NL>
+            </div>
+            <div id="button20">
+            <NL id="20">
+                <name>San Diego Padres</name>
+                <division>NL West</division>
+                <leagueStandings>05</leagueStandings>
+                <logo>./logos/Padres.png</logo>
+                <website>https://www.mlb.com/padres</website>
+            </NL>
+            </div>
+            <div id="button21">
+            <NL id="21">
+                <name>Philadelphia Phillies</name>
+                <division>NL East</division>
+                <leagueStandings>06</leagueStandings>
+                <logo>./logos/Phillies.png</logo>
+                <website>https://www.mlb.com/phillies</website>
+            </NL>
+            </div>
+            <div id="button22">
+            <NL id="22">
+                <name>Milwaukee Brewers</name>
+                <division>NL Central</division>
+                <leagueStandings>07</leagueStandings>
+                <logo>./logos/Brewers.png</logo>
+                <website>https://www.mlb.com/brewers</website>
+            </NL>
+            </div>
+            <div id="button23">
+            <NL id="23">
+                <name>San Francisco Giants</name>
+                <division>NL West</division>
+                <leagueStandings>08</leagueStandings>
+                <logo>./logos/Giants.png</logo>
+                <website>https://www.mlb.com/giants</website>
+            </NL>
+            </div>
+            <div id="button24">
+            <NL id="24">
+                <name>Arizona Diamondbacks</name>
+                <division>NL West</division>
+                <leagueStandings>09</leagueStandings>
+                <logo>./logos/Diamondbacks.png</logo>
+                <website>https://www.mlb.com/dbacks</website>
+            </NL>
+            </div>
+            <div id="button25">
+            <NL id="25">
+                <name>Chicago Cubs</name>
+                <division>NL Central</division>
+                <leagueStandings>10</leagueStandings>
+                <logo>./logos/Cubs.png</logo>
+                <website>https://www.mlb.com/cubs</website>
+            </NL>
+            </div>
+            <div id="button26">
+            <NL id="26">
+                <name>Miami Marlins</name>
+                <division>NL East</division>
+                <leagueStandings>11</leagueStandings>
+                <logo>./logos/Marlins.png</logo>
+                <website>https://www.mlb.com/marlins</website>
+            </NL>
+            </div>
+            <div id="button27">
+            <NL id="27">
+                <name>Colorado Rockies</name>
+                <division>NL West</division>
+                <leagueStandings>12</leagueStandings>
+                <logo>./logos/Rockies.png</logo>
+                <website>https://www.mlb.com/rockies</website>
+            </NL>
+            </div>
+            <div id="button28">
+            <NL id="28">
+                <name>Cincinnati Reds</name>
+                <division>NL Central</division>
+                <leagueStandings>13</leagueStandings>
+                <logo>./logos/Reds.png</logo>
+                <website>https://www.mlb.com/reds</website>
+            </NL>
+            </div>
+            <div id="button29">
+            <NL id="29">
+                <name>Pittsburgh Pirates</name>
+                <division>NL Central</division>
+                <leagueStandings>14</leagueStandings>
+                <logo>./logos/Pirates.png</logo>
+                <website>https://www.mlb.com/pirates</website>
+            </NL>
+            </div>
+            <div id="button30">
+            <NL id="30">
+                <name>Washington Nationals</name>
+                <division>NL East</division>
+                <leagueStandings>15</leagueStandings>
+                <logo>./logos/Nationals.png</logo>
+                <website>https://www.mlb.com/nationals</website>
+            </NL>
+            </div>
+        </MLB>
+    </div>
+</xml>

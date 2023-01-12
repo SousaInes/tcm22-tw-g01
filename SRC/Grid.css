@@ -1,0 +1,22 @@
+body {
+    margin: 50px;
+  }
+  
+  .button {
+    background-color: rgba(68, 68, 68, 0.381);
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30%;
+    size: 40%;
+  }
+  
+  
+  #wrapper {
+    width: 70%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+  }

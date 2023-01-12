@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./Grid.css" />
+    <xml id="MLBTeams" src="MLBTeams.xml"></xml>
+</head>
+
+<body>
+    <div id="wrapper">
+    </div>
+    <script>
+        var rawFile = new XMLHttpRequest();
+        rawFile.onreadystatechange = function () {
+            if (rawFile.readyState === 4) {
+                if (rawFile.status === 200 || rawFile.status == 0) {
+                    x = rawFile.responseXML.getElementsByTagName("AL");
+                    z = rawFile.responseXML.getElementsByTagName("NL");
+                    txt = "";
+                    for (i = 0; i < x.length; i++) {
+                        const name = x[i].childNodes[1].childNodes[0].nodeValue;
+                        const logo = x[i].childNodes[7].childNodes[0].nodeValue;
+                        const website = x[i].childNodes[9].childNodes[0].nodeValue;
+
+                        txt += `<a href="${website}">
+                                    <div id="${i}" class="button">
+                                    <div>${name}</div>
+                                    <img src=${logo} width="50%" height="50%"/>\
+                                    </div>
+                                </a>
+                                `
+                    }
+                    const teams = document.getElementById("wrapper").innerHTML=txt;
+                    console.log(teams);
+                    for (i = 0; i < z.length; i++) {
+                        const name = z[i].childNodes[1].childNodes[0].nodeValue;
+                        const logo = z[i].childNodes[7].childNodes[0].nodeValue;
+                        const website = z[i].childNodes[9].childNodes[0].nodeValue;
+
+                        txt += `<a href="${website}">
+                                    <div id="${i}" class="button">
+                                    <div>${name}</div>
+                                    <img src=${logo}  width="30px" height="30px"/>\
+                                    </div>
+                                </a>
+                                `
+                    }
+                }
+            }
+        }
+        rawFile.open("GET", "./MLBTeams.xml", true);
+        rawFile.send();
+
+
+    </script>
+</body>
