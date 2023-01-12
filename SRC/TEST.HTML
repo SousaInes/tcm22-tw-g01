@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./Grid.css" />
+    <xml id="MLBTeams" src="MLBTeams.xml"></xml>
+</head>
+
+<script>
+    function loadXMLDoc(MLBTeams) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                empDetails(this);
+            }
+        };
+        xmlhttp.open("GET", "MLBTeams.xml", true);
+        xmlhttp.send();
+    }
+
+    function empDetails(xml) {
+        var i;
+        var xmlDoc = xml.responseXML;
+        var table =
+            `<tr><th>Firstname</th><th>Lastname</th>
+                <th>Title</th><th>Division</th>
+                <th>Building</th><th>Room</th>
+            </tr>`;
+        var x = xmlDoc.getElementsByTagName("employee");
+
+        // Start to fetch the data by using TagName 
+        for (i = 0; i < x.length; i++) {
+            table += "<tr><td>" +
+                x[i].getElementsByTagName("firstname")[0]
+                .childNodes[0].nodeValue + "</td><td>" +
+                x[i].getElementsByTagName("lastname")[0]
+                .childNodes[0].nodeValue + "</td><td>" +
+                x[i].getElementsByTagName("title")[0]
+                .childNodes[0].nodeValue + "</td><td>" +
+                x[i].getElementsByTagName("division")[0]
+                .childNodes[0].nodeValue + "</td><td>" +
+                x[i].getElementsByTagName("building")[0]
+                .childNodes[0].nodeValue + "</td><td>" +
+                x[i].getElementsByTagName("room")[0]
+                .childNodes[0].nodeValue + "</td></tr>";
+        }
+
+        // Print the xml data in table form
+        document.getElementById("id").innerHTML = table;
+    }
+</script>
+</head>
+
+<body>
+<center>
+    <button type="button" class="button" 
+        onclick="loadXMLDoc()">
+        Get Employees Details
+    </button>
+</center>
+  
+<br><br>
+<table id="id"></table>
+</body>
+
+</html>
