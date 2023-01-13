@@ -1,7 +1,7 @@
-.homepage{
+.h4{
     color: darkblue;
     position: fixed;
-    align-items: center;
+    text-align: center;
     width: min-content 100%;
     height: min-content 100%;
 }
