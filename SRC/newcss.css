@@ -14,15 +14,34 @@ a:hover {
     color: greenyellow;
 }
 
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.paginas {
+    bottom: 0;
+}
+
+  ul {
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    width: 10%; 
+    position: fixed;
+    height:100%;
+    overflow: auto;
+    background-image:url("./SRC/imagens/banner_2.jpg");
+  }
 
 .body {
-    /*  background-color: #0D0015; */
     position: static;
     align-content: center;
     width: 90%;
     height: 90%;
     padding: 10px;
-    margin: 20px;
+    margin: 0;
 }
 
 #bannerimage {
