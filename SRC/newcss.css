@@ -1,4 +1,4 @@
-* {
+html {
     background-color: black;
 }
 
@@ -14,43 +14,30 @@ a:hover {
     color: greenyellow;
 }
 
-li a {
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
+#homepage {
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.671);
+    border-style: double;
+    border-top: 0;  
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
+    margin-top: 0;
+    top: 0;
+    font-size: 200px;
+    text-align:left;
+    text-align: center;
 }
 
 .paginas {
     bottom: 0;
-}
-
-  ul {
-    list-style-type:none;
-    margin: 0;
-    padding:0;
-    width: 10%; 
     position: fixed;
-    height:100%;
-    overflow: auto;
-    background-image:url("./SRC/imagens/banner_2.jpg");
-  }
+    text-align: left;
 
-.body {
-    position: static;
-    align-content: center;
-    width: 90%;
-    height: 90%;
-    padding: 10px;
-    margin: 0;
-}
-
-#bannerimage {
-    width: 100%;
-    background-image: url("./SRC/imagens/banner.jpg");
-    background-position: center;
-    opacity: 80%;
-    height: 305px;
-    background-color: #000302;
 }
 
 /*
@@ -69,6 +56,7 @@ li a {
 }
 */
 
+h1,
 h2,
 h3,
 h4 {
@@ -76,4 +64,42 @@ h4 {
     font-family: "Garamond", Bookman, Times New Roman, serif;
 
 
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;  
+}
+
+.supersidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    background-color: #111;
+}
+
+.supersidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.supersidenav a:hover {
+    color: #f1f1f1;
+}
+
+.body{
+    margin-left: 13.5%;
+    margin-top: 14%;
+}
+
+footer{
+    margin-left: 13.5%;
 }
