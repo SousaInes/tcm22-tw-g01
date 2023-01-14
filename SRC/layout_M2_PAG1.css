@@ -1,0 +1,35 @@
+h4{
+    color: darkblue;
+    position:static;
+    text-align: center;
+    font-size: xxx-large;
+}
+h1{
+    clear: both;
+}
+
+.menu{
+    position: static;
+    text-align: center;
+    min-width: 100%;
+    min-height: fit-content;
+    padding: 10px;
+    border: 10px;
+}
+
+#abc{
+    float: right;
+}
+
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
