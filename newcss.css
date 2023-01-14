@@ -1,0 +1,42 @@
+.body {
+    /*  background-color: #0D0015; */
+    position: static;
+    align-content: center;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    margin: 20px;
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url("./SRC/imagens/banner.jpg");
+    background-position: center;
+    opacity: 80%;
+    height: 305px;
+    background-color: #000302;
+}
+/*
+#origemimage {
+    background-image: url("./SRC/imagens/Baseball1866.JPG");
+    float: right;
+    opacity: 90%;
+    width: 350px;
+    height: 250px;
+}
+
+#beisebol_pro_image {
+    background-image: url("./SRC/imagens/beisebol_profissional.jpg");
+
+
+}
+*/
+
+h2,
+h3,
+h4 {
+    color: rgb(28, 67, 183);
+    font-family: "Garamond", Bookman, Times New Roman, serif;
+
+
+}
