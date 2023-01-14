@@ -1,3 +1,19 @@
+*{background-color: black;  
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: darkgrey;
+}
+
+a:hover{
+    color:greenyellow;
+}
+
+
 .body {
     /*  background-color: #0D0015; */
     position: static;
@@ -10,7 +26,7 @@
 
 #bannerimage {
     width: 100%;
-    background-image: url("./SRC/imagens/banner.jpg");
+    background-image:src="SRC/imagens/banner.jpg"
     background-position: center;
     opacity: 80%;
     height: 305px;
