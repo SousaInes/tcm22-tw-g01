@@ -1,16 +1,17 @@
-*{background-color: black;  
+* {
+    background-color: black;
 }
 
-a:link{
+a:link {
     color: white;
 }
 
-a:visited{
+a:visited {
     color: darkgrey;
 }
 
-a:hover{
-    color:greenyellow;
+a:hover {
+    color: greenyellow;
 }
 
 
@@ -26,12 +27,13 @@ a:hover{
 
 #bannerimage {
     width: 100%;
-    background-image:src="SRC/imagens/banner.jpg"
+    background-image: url("./SRC/imagens/banner.jpg");
     background-position: center;
     opacity: 80%;
     height: 305px;
     background-color: #000302;
 }
+
 /*
 #origemimage {
     background-image: url("./SRC/imagens/Baseball1866.JPG");
