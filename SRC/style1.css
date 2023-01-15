@@ -13,6 +13,7 @@ body {
 	color: rgba(0,0,0,.8);
 }
 
+
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -45,6 +46,23 @@ p{
 	color: white;
 }
 
+ul{
+	text-align: center;
+}
+
+html {
+	font-size: 1em;
+  }
+  
+  h1 {
+	font-size: 2rem;
+  }
+  
+  @media (min-width: 1200px) {
+	h1 {
+	  font-size: 4rem;
+	}
+  }
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
@@ -92,6 +110,8 @@ hr {
 }
 
 /** WRAPPER */
+/** HEADER */
+
 
 #wrapper {
 	background: rgb(0, 0, 0);
@@ -101,13 +121,9 @@ hr {
 .container {
 	width: fit-content;	
 	margin: 0px auto;
+	height: fit-content;
 }
 
-.clearfix {
-	clear: both;
-}
-
-/** HEADER */
 
 #header-wrapper
 {
@@ -145,6 +161,8 @@ hr {
 	letter-spacing: -1px;
 	text-transform: lowercase;
 	font-size: 3.5em;
+	padding-left: 50px;
+	padding-top: 25px;
 	color: rgb(173, 173, 173);
 }
 
@@ -197,17 +215,23 @@ hr {
 	border: none;
 }
 
-#menu a:link{
+a:link{
 	color: white;
+	text-decoration: none;
 }
 
-#menu a:hover{
+a:hover{
 	text-decoration: none;
 	color:greenyellow;
 } 
 
-#menu a:visited{
-	color: rgba(182, 182, 182, 0.801);
+a:visited{
+	color: rgba(231, 231, 229, 0.801);
+}
+
+a:visited:hover{
+	color:greenyellow;
+	text-decoration: none;
 }
 
 /** PAGE */
@@ -249,16 +273,16 @@ hr {
 	{
 		overflow: hidden;
 		padding: 2em 0em;
-		background: rgba(0,0,0,.02);
+		background: rgba(167, 167, 167, 0.02);
 		background-image: url(images/overlay.png);
 		background-repeat: repeat;
-		border-top:solid rgba(0,0,0,.05);
+		border-top:solid rgb(204, 204, 204);
+		background-color: #464646;
 	}
 	
-	#portfolio .box
-	{
-		color: rgba(41, 12, 12, 0.5);
-	}
+/*********************************************************************************/
+/* Colunas                                                                       */
+/*********************************************************************************/
 	
 	.column1,
 	.column2,
@@ -274,11 +298,6 @@ hr {
 	{
 		float: left;
 		margin-right: 24px;
-	}
-	
-	.column4
-	{
-		float: right;
 	}
 
 /*********************************************************************************/
@@ -305,7 +324,7 @@ hr {
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1.1em;
-		color: #6F6F6F;
+		color: #b9b9b9;
 	}
 
 /*********************************************************************************/
@@ -316,7 +335,6 @@ hr {
 	display: block;
 	padding: 40px 40px 40px 40px;
 	line-height: 70px;
-	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 16px;
@@ -328,16 +346,18 @@ hr {
 	text-align: right;
 }
 
-#paginas a:link{
-	color: black;
+.contact2{
+	display: block;
+	padding: 40px 40px 40px 0px;
+	line-height: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+	margin: 5px 5px 5px 5px;
+	list-style: none;
+	line-height: normal;
+	text-align: left;
 }
 
-#paginas a:hover{
-	color:greenyellow
-}
-
-#paginas a:visited{
-	color: rgba(128, 128, 128, 0.733);
-	text-decoration: none;
-    decoration: none; 
-}
