@@ -3,162 +3,311 @@ html {
     viewport-fit: auto;
     font-size: calc(15px + 0.1vw);
 }
-
-.container {
-    position: relative;
-    width:fit-content;
-    height: fit-content;
-  }
-  
-
-.container:hover .overlay {
-    opacity: 1;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width:100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-
-.text {
-    color: white;
-    font-size: fit-width fit-height fit-height-precise;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000000 repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
 }
 
-img {
-    max-width: 100%;
-  }
-
-a:link {
-    color: white;
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #ffffff;
 }
 
-a:visited {
-    color: darkgrey;
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: rgba(0,0,0,.8);
 }
 
 a:hover {
-    color: greenyellow;
+	text-decoration: none;
 }
 
-.paginas {
-    bottom: 0;
-    position: fixed;
-    text-align: left;
-
+a img {
+	border: none;
 }
 
-#titulo{
-    height:fit-content;
-    width:fit-content;
-    font-weight: 1000;
-    text-align:left;
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 3em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+hr {
+	display: none;
 }
 
-/*
-#origemimage {
-    background-image: url("./SRC/imagens/Baseball1866.JPG");
-    float: right;
-    opacity: 90%;
-    width: 350px;
-    height: 250px;
+/** WRAPPER */
+
+#wrapper {
+	background: rgb(0, 0, 0);
+	margin: 0px 20px;
 }
 
-#beisebol_pro_image {
-    background-image: url("./SRC/imagens/beisebol_profissional.jpg");
-
-
-}
-*/
-@media (min-width: 48rem) {
-    h1 {
-      font-size: 3em;
-    }
-    h2 {
-      font-size: 2.25em;
-    }
-    p {
-      font-size: 1.5em;
-    }
-  }
-
-h1 {
-    font-size: 2em;
-  }
-
-h2 {
- font-size: 1.5em;
-  }
-
-p {
- font-size: 1em;
-  }
-
-h1,
-h2,
-h3,
-h4 {
-    color: rgb(28, 67, 183);
-    font-family: "Garamond", Bookman, Times New Roman, serif;
-
-
+.container {
+	width: fit-content;	
+	margin: 0px auto;
 }
 
-.footer{
-    bottom: 0;
-    width: 100%;  
+.clearfix {
+	clear: both;
 }
 
-.supersidenav {
-    height: 100%;
-    width: 13.5%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x:hidden;
-    white-space:normal;
-    padding-top: 20px;
-    background-color: rgb(26, 26, 26);
+/** HEADER */
+
+#header-wrapper
+{
+	background: url(SRC/imagens/banner.jpg) no-repeat center center;
+	background-size: cover;
 }
 
-.supersidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 600px;
 }
 
-.supersidenav a:hover {
-    color: #f1f1f1;
+#social
+{
+	position: absolute;
+	top: 4em;
+	right: 0;
 }
 
-.body{
-    margin-left: 13.5%;
+/** LOGO */
+
+#logo {
+	position: absolute;
+	top: 3em;
+	left: 0;
 }
 
-footer{
-    margin-left: 13.5%;
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
 }
+
+#logo h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.5em;
+	color: rgb(173, 173, 173);
+}
+
+#logo p {
+	padding: 0px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #161616;
+}
+
+#logo p a {
+	color: #161616;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000;
+}
+
+/** MENU */
+
+#menu {
+	overflow: hidden;
+	background: #2b2b2b;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+	#page img
+	{
+		margin-bottom: 1em;
+	}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+	}
+
+	#page .title h2
+	{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#page .title .byline
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0, 0, 0, 0.7);
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		overflow: hidden;
+		padding: 2em 0em;
+		background: rgba(0,0,0,.02);
+		background-image: url(images/overlay.png);
+		background-repeat: repeat;
+		border-top:solid rgba(0,0,0,.05);
+	}
+	
+	#portfolio .box
+	{
+		color: rgba(41, 12, 12, 0.5);
+	}
+	
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 2.8em;
+		color: rgba(255,255,255,0.9);
+	}
+	
+	.title .byline
+	{
+		padding-top: 0.50em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #6F6F6F;
+	}
