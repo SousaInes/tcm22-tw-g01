@@ -1,0 +1,23 @@
+#uniform {
+    width: 600px;
+    height: 350px;
+}
+
+#uniformset {
+    width: 400px;
+    height: 250px;
+}
+#uniformshorts{
+    width: 400px;
+    height: 480px;
+}
+
+#players {
+    width: 500px;
+    height: 350px;
+}
+
+#tbplayers {
+    width: 270px;
+    height: 200px;
+}
