@@ -8,8 +8,6 @@ body {
 	padding: 0px;
 	background: #000000 repeat;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
-	font-weight: 400;
 	color: rgba(0,0,0,.8);
 }
 
@@ -18,13 +16,10 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-weight: 300;
-	color: #ffffff;
 }
 
 h2 {
 	padding: 0px 0px 30px 0px;
-	font-size: 2.50em;
 }
 
 p, ol, ul {
@@ -33,9 +28,6 @@ p, ol, ul {
 
 p {
 	line-height: 180%;
-}
-
-strong {
 }
 
 a img {
@@ -50,13 +42,11 @@ ul{
 	text-align: center;
 }
 
-html {
-	font-size: 1em;
-  }
-  
-  h1 {
-	font-size: 2rem;
-  }
+
+/*********************************************************************************/
+/* Media                                                                   */
+/*********************************************************************************/
+
   
   @media (min-width: 1200px) {
 	h1 {

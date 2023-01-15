@@ -36,29 +36,6 @@ li {
     color: rgb(223, 223, 223);
 }
 
-a:link {
-    color: rgb(22, 166, 214);
-}
-
-/* visited link */
-a:visited {
-    color: lightblue;
-}
-
-/* mouse over link */
-a:hover {
-    color: dodgerblue;
-}
-
-/* selected link */
-a:active {
-    color: midnightblue;
-}
-
-a.highlight:hover {
-    color: blue;
-    font-size: large;
-}
 
 div.AL p,
 div.NL p {
