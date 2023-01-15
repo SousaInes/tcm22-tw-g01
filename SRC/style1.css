@@ -4,6 +4,13 @@ html {
     font-size: calc(15px + 0.1vw);
 }
 
+#link:hover{
+    
+}
+
+img {
+    max-width: 100%;
+  }
 
 a:link {
     color: white;
@@ -43,6 +50,29 @@ a:hover {
 
 }
 */
+@media (min-width: 48rem) {
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2.25em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+h1 {
+    font-size: 2em;
+  }
+
+h2 {
+ font-size: 1.5em;
+  }
+
+p {
+ font-size: 1em;
+  }
 
 h1,
 h2,
@@ -66,7 +96,8 @@ h4 {
     z-index: 1;
     top: 0;
     left: 0;
-    overflow-x: hidden; 
+    overflow-x:hidden;
+    white-space:normal;
     padding-top: 20px;
     background-color: #111;
 }
