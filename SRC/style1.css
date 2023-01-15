@@ -119,6 +119,7 @@ hr {
 }
 
 .container {
+	
 	width: fit-content;	
 	margin: 0px auto;
 	height: fit-content;
@@ -188,6 +189,7 @@ hr {
 /** MENU */
 
 #menu {
+	width: 100%; 
 	overflow: hidden;
 	background: #464646;
 }
