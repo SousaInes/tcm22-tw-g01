@@ -1,6 +1,9 @@
 html {
     background-color: black;
+    viewport-fit: auto;
+    font-size: calc(15px + 0.1vw);
 }
+
 
 a:link {
     color: white;
@@ -14,25 +17,6 @@ a:hover {
     color: greenyellow;
 }
 
-#homepage {
-    top: 0;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    height: auto;
-    background-color: rgba(128, 128, 128, 0.671);
-    border-style: double;
-    border-top: 0;  
-    border-left: 0;
-    border-right: 0;
-    border-color: white;
-    margin-top: 0;
-    top: 0;
-    font-size: 200px;
-    text-align:left;
-    text-align: center;
-}
-
 .paginas {
     bottom: 0;
     position: fixed;
@@ -40,6 +24,10 @@ a:hover {
 
 }
 
+#titulo{
+    font-weight: 1000;
+    font
+}
 /*
 #origemimage {
     background-image: url("./SRC/imagens/Baseball1866.JPG");
@@ -73,7 +61,7 @@ h4 {
 
 .supersidenav {
     height: 100%;
-    width: 250px;
+    width: 13.5%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -97,7 +85,6 @@ h4 {
 
 .body{
     margin-left: 13.5%;
-    margin-top: 14%;
 }
 
 footer{
