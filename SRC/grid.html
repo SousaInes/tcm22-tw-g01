@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./Grid.css" />
+    <xml id="MLBTeams" src="MLBTeams.xml"></xml>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: lightslategray;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid lightslategray;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        
+            <button id="MLBTeams" onclick="myFunction()">
+                <input type=button onClick="parent.open('https://www.mlb.com/astros')" 
+value='Houston Astros' >
+            </button>
+            <button id="MLBTeams" onclick="myFunction()">Houston Astros
+                <a><img alt="https://www.mlb.com/astros" src="/tcm22-tw-g01/SRC/logos/Astros.png"></a>
+            </button>
+            <button id="MLBTeams" onclick="myFunction()">Houston Astros
+                <a><img alt="https://www.mlb.com/astros" src="/tcm22-tw-g01/SRC/logos/Astros.png"></a>
+            </button>
+            <button id="MLBTeams" onclick="myFunction()">Houston Astros
+                <a><img alt="https://www.mlb.com/astros" src="/tcm22-tw-g01/SRC/logos/Astros.png"></a>
+            </button>
+            <button id="MLBTeams" onclick="myFunction()">Houston Astros
+                <a><img alt="https://www.mlb.com/astros" src="/tcm22-tw-g01/SRC/logos/Astros.png"></a>
+            </button>
+            <button id="MLBTeams" onclick="myFunction()">Houston Astros
+                <a><img alt="https://www.mlb.com/astros" src="/tcm22-tw-g01/SRC/logos/Astros.png"></a>
+            </button>
+
+    </div>
+</body>
+<script type="text/javascript">
+
+    myFunction() {
+        document.getElementById("MLBTeams").innerHTML = "Hello World";
+
+    }
+</script>
+
+</html>

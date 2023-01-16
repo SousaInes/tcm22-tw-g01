@@ -1,4 +1,4 @@
-h1, {
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
     font-size:2vw;
@@ -16,25 +16,19 @@ strong,
 
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(223, 223, 223);
-    font-size: large;
-    font-weight: bolder;
-
-}
 
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    font-size: medium;
+    font-size: 0.9vw;
     font-weight: bolder;
 
 }
 
 p,
 li,
-td {
+td,
+button {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
     font-size: 0.8vw;
@@ -62,4 +56,27 @@ td {
 #origem {
     width: 650px;
     height: 450px;
+}
+#uniform {
+    width: 600px;
+    height: 350px;
+}
+
+#uniformset {
+    width: 400px;
+    height: 250px;
+}
+#uniformshorts{
+    width: 400px;
+    height: 480px;
+}
+
+#players {
+    width: 500px;
+    height: 350px;
+}
+
+#tbplayers {
+    width: 270px;
+    height: 200px;
 }
