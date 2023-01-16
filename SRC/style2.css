@@ -6,219 +6,275 @@ html {
 
 img {
     max-width: 100%;
+  }
+
+  html {
+    background-color: black;
+    viewport-fit: auto;
+    font-size: calc(15px + 0.1vw);
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000000 repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(0,0,0,.8);
 }
 
-a:link {
-    color: white;
-}
 
-a:visited {
-    color: darkgrey;
-}
-
-a:hover {
-    color: greenyellow;
-}
-
-.paginas {
-    bottom: 0;
-    position: fixed;
-    text-align: left;
-
-}
-
-#titulo {
-    height: fit-content;
-    width: fit-content;
-    font-weight: 1000;
-    text-align: left;
-}
-
-/*
-#origemimage {
-    background-image: url("./SRC/imagens/Baseball1866.JPG");
-    float: right;
-    opacity: 90%;
-    width: 350px;
-    height: 250px;
-}
-
-#beisebol_pro_image {
-    background-image: url("./SRC/imagens/beisebol_profissional.jpg");
-
-
-}
-*/
-.highlight {
-    text-align: center;
-    margin-top: 0px;
-    text-decoration: none;
-}
-
-#body a {
-    display: block;
-    padding: 0px 40px 0px 40px;
-    line-height: 70px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 200;
-    border: none;
-}
-
-.body {
-    width: 100%;
-    overflow: hidden;
-    background: #464646;
-}
-
-.body ul {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px;
-    list-style: none;
-    line-height: normal;
-}
-
-.body li {
-    display: inline-block;
-}
-
-#container {
-    width: fit-content;
-    margin: 0px auto;
-    height: fit-content;
-}
-
-h1 {
-    font-size: 2em;
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1.5em;
+	padding: 0px 0px 30px 0px;
+}
+
+p, ol, ul {
+	margin-top: 0px;
 }
 
 p {
-    font-size: 1em;
+	line-height: 180%;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    color: rgb(28, 67, 183);
-    font-family: "Garamond", Bookman, Times New Roman, serif;
-
-
+a img {
+	border: none;
 }
 
-.footer {
-    bottom: 0;
-    width: 100%;
+p{
+	color: white;
 }
 
-.supersidenav {
-    height: 100%;
-    width: 13.5%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    white-space: normal;
-    padding-top: 20px;
-    background-color: rgb(26, 26, 26);
+
+/*********************************************************************************/
+/* Media                                                                   */
+/*********************************************************************************/
+
+  
+  @media (min-width: 1200px) {
+	h1 {
+	  font-size: 4rem;
+	}
+  }
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.origem {
+    float: left;
+    margin-right: 1rem;
 }
 
-.supersidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+
+hr {
+	display: none;
 }
 
-.supersidenav a:hover {
-    color: #f1f1f1;
-}
+/** WRAPPER */
+/** HEADER */
 
-.body {
-    margin-left: 13.5%;
-}
 
-footer {
-    margin-left: 13.5%;
-}
-
-#portfolio-wrapper {
-    overflow: hidden;
-    padding: 2em 0em;
-    background: rgba(167, 167, 167, 0.02);
-    background-image: url(images/overlay.png);
-    background-repeat: repeat;
-    border-top: solid rgb(204, 204, 204);
-    background-color: #464646;
+#wrapper {
+	background: rgb(0, 0, 0);
+	margin: 0px 20px;
 }
 
 .container {
-
-    width: fit-content;
-    margin: 0px auto;
-    height: fit-content;
+	
+	width: fit-content;	
+	margin: 0px auto;
+	height: fit-content;
 }
 
-.title {
-    margin-bottom: 3em;
+#header {
+	position: relative;
+	overflow: hidden;
 }
 
-.title h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 2.8em;
-    color: rgba(255, 255, 255, 0.9);
+/** LOGO */
+
+#logo {
+	position: absolute;
+	top: 3em;
+	left: 3rem;
 }
 
-.title .byline {
-    padding-top: 0.50em;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.1em;
-    color: #b9b9b9;
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-    background: #000000 repeat;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12pt;
-    font-weight: 400;
-    color: rgba(0, 0, 0, .8);
+#logo h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.5em;
+	padding-left: 50px;
+	padding-top: 25px;
+	color: rgb(173, 173, 173);
 }
 
-#video {
+#logo p {
+	padding: 0px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #ffffff;
+}
+
+#logo p a {
+	color: #ffffff;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+/** MENU */
+
+#menu {
+	width: 100%; 
+	overflow: hidden;
+	background: #464646;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+    margin: 0px -10px;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color:greenyellow;
+} 
+
+a:visited{
+	color: rgba(231, 231, 229, 0.801);
+}
+
+a:visited:hover{
+	color:greenyellow;
+	text-decoration: none;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		overflow: hidden;
+		padding: 2em 0em;
+		background: rgba(167, 167, 167, 0.02);
+		background-image: url(images/overlay.png);
+		background-repeat: repeat;
+		border-top:solid rgb(204, 204, 204);
+		background-color: #464646;
+	}
+	
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 2.8em;
+		color: rgba(255,255,255,0.9);
+	}
+	
+	.title .byline
+	{
+		padding-top: 0.50em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #b9b9b9;
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.contact{
+	display: block;
+	padding: 40px 40px 40px 40px;
+	line-height: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+	margin: 5px 5px 5px 5px;
+	list-style: none;
+	line-height: normal;
+	text-align: right;
+}
+
+.contact2{
+	display: block;
+	padding: 40px 40px 40px 0px;
+	line-height: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+	margin: 5px 5px 5px 5px;
+	list-style: none;
+	line-height: normal;
+	text-align: left;
+}
+
+/*********************************************************************************/
+/* Video                                                                         */
+/*********************************************************************************/
+
+#video{
     width: 500px;
     height: 300px;
-}
-
-#points {
-    height: 200px;
-    width: 320px;
-}
-
-#strike,
-#outs {
-    height: 200px;
-    width: 320px;
-}
-
-#extrainnings {
-    height: 200px;
-    width: 420px;
-}
-
-#posicoes {
-    height: 340px;
-    width: 550px;
 }
