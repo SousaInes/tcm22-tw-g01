@@ -6,7 +6,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background: #000000 repeat;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: rgba(0,0,0,.8);
 }
 
@@ -149,7 +148,6 @@ hr {
 #logo h1 {
 	letter-spacing: -1px;
 	text-transform: lowercase;
-	font-size: 3.5em;
 	padding-left: 50px;
 	padding-top: 25px;
 	color: rgb(173, 173, 173);
@@ -159,7 +157,6 @@ hr {
 	padding: 0px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	font-size: 0.9em;
 	color: #ffffff;
 }
 
@@ -200,7 +197,6 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 200;
 	border: none;
 }
@@ -243,7 +239,6 @@ a:visited:hover{
 
 	#page .title h2
 	{
-		font-size: 1.5em;
 		font-weight: 400;
 		color: white;
 	}
@@ -304,7 +299,6 @@ a:visited:hover{
 	{
 		margin: 0;
 		padding: 0;
-		font-size: 2.8em;
 		color: rgba(255,255,255,0.9);
 	}
 	
@@ -314,7 +308,6 @@ a:visited:hover{
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 1.1em;
 		color: #b9b9b9;
 	}
 
@@ -343,7 +336,6 @@ a:visited:hover{
 	line-height: 70px;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 200;
 	border: none;
 	margin: 5px 5px 5px 5px;

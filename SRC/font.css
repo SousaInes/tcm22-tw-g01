@@ -1,3 +1,7 @@
+*a{
+    font-size: 0.9vw;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
@@ -45,6 +49,10 @@ div.NL p {
 
 td {
     text-align: center;
+}
+
+.footer{
+    font-size: 2vw;
 }
 
 #liga {

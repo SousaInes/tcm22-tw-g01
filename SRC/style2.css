@@ -1,7 +1,6 @@
 html {
     background-color: black;
     viewport-fit: auto;
-    font-size: calc(15px + 0.1vw);
 }
 
 img {
@@ -11,7 +10,6 @@ img {
   html {
     background-color: black;
     viewport-fit: auto;
-    font-size: calc(15px + 0.1vw);
 }
 body {
 	margin: 0px;
@@ -21,6 +19,9 @@ body {
 	color: rgba(0,0,0,.8);
 }
 
+h1{
+    font-size: 3vw;
+}
 
 h1, h2, h3 {
 	margin: 0;
@@ -110,7 +111,6 @@ hr {
 #logo h1 {
 	letter-spacing: -1px;
 	text-transform: lowercase;
-	font-size: 3.5em;
 	padding-left: 50px;
 	padding-top: 25px;
 	color: rgb(173, 173, 173);
@@ -163,7 +163,6 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 200;
 	border: none;
 }
@@ -222,7 +221,6 @@ a:visited:hover{
 	{
 		margin: 0;
 		padding: 0;
-		font-size: 2.8em;
 		color: rgba(255,255,255,0.9);
 	}
 	
@@ -232,7 +230,6 @@ a:visited:hover{
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 1.1em;
 		color: #b9b9b9;
 	}
 
@@ -246,7 +243,6 @@ a:visited:hover{
 	line-height: 70px;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 200;
 	border: none;
 	margin: 5px 5px 5px 5px;
@@ -261,7 +257,6 @@ a:visited:hover{
 	line-height: 70px;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 200;
 	border: none;
 	margin: 5px 5px 5px 5px;
