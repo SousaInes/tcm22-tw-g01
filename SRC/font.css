@@ -1,4 +1,4 @@
-h1 {
+h1, {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
     font-size:2vw;
@@ -6,8 +6,9 @@ h1 {
 
 }
 
-h3,h2,
-strong {
+h2,
+strong,
+.title {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
     font-size: 1vw;
