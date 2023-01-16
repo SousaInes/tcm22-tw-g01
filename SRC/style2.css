@@ -8,155 +8,55 @@ img {
     max-width: 100%;
   }
 
-  html {
-    background-color: black;
-    viewport-fit: auto;
-    font-size: calc(15px + 0.1vw);
-}
-body {
-	margin: 0px;
-	padding: 0px;
-	background: #000000 repeat;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: rgba(0,0,0,.8);
+a:link {
+    color: white;
 }
 
-
-h1, h2, h3 {
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
+a:visited {
+    color: darkgrey;
 }
 
-h2 {
-	padding: 0px 0px 30px 0px;
+a:hover {
+    color: greenyellow;
 }
 
-p, ol, ul {
-	margin-top: 0px;
+.paginas {
+    bottom: 0;
+    position: fixed;
+    text-align: left;
+
 }
 
-p {
-	line-height: 180%;
+#titulo{
+    height:fit-content;
+    width:fit-content;
+    font-weight: 1000;
+    text-align:left;
 }
 
-a img {
-	border: none;
+/*
+#origemimage {
+    background-image: url("./SRC/imagens/Baseball1866.JPG");
+    float: right;
+    opacity: 90%;
+    width: 350px;
+    height: 250px;
 }
 
-p{
-	color: white;
+#beisebol_pro_image {
+    background-image: url("./SRC/imagens/beisebol_profissional.jpg");
+
+
+}
+*/
+.highlight{
+	text-align: center;
+    margin-top: 0px;
+    text-decoration: none;
+    text
 }
 
-
-/*********************************************************************************/
-/* Media                                                                   */
-/*********************************************************************************/
-
-  
-  @media (min-width: 1200px) {
-	h1 {
-	  font-size: 4rem;
-	}
-  }
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-.origem {
-    float: left;
-    margin-right: 1rem;
-}
-
-
-hr {
-	display: none;
-}
-
-/** WRAPPER */
-/** HEADER */
-
-
-#wrapper {
-	background: rgb(0, 0, 0);
-	margin: 0px 20px;
-}
-
-.container {
-	
-	width: fit-content;	
-	margin: 0px auto;
-	height: fit-content;
-}
-
-#header {
-	position: relative;
-	overflow: hidden;
-}
-
-/** LOGO */
-
-#logo {
-	position: absolute;
-	top: 3em;
-	left: 3rem;
-}
-
-#logo h1, #logo p {
-	margin: 0;
-	padding: 0;
-}
-
-#logo h1 {
-	letter-spacing: -1px;
-	text-transform: lowercase;
-	font-size: 3.5em;
-	padding-left: 50px;
-	padding-top: 25px;
-	color: rgb(173, 173, 173);
-}
-
-#logo p {
-	padding: 0px;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	font-size: 0.9em;
-	color: #ffffff;
-}
-
-#logo p a {
-	color: #ffffff;
-}
-
-#logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-}
-
-/** MENU */
-
-#menu {
-	width: 100%; 
-	overflow: hidden;
-	background: #464646;
-}
-
-#menu ul {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px;
-	list-style: none;
-	line-height: normal;
-    text-align: center;
-}
-
-#menu li {
-	display: inline-block;
-    margin: 0px -10px;
-}
-
-#menu a {
+#body a {
 	display: block;
 	padding: 0px 40px 0px 40px;
 	line-height: 70px;
@@ -168,36 +68,90 @@ hr {
 	border: none;
 }
 
-a:link{
-	color: white;
-	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: none;
-	color:greenyellow;
-} 
-
-a:visited{
-	color: rgba(231, 231, 229, 0.801);
-}
-
-a:visited:hover{
-	color:greenyellow;
-	text-decoration: none;
-}
-
-/** PAGE */
-
-#page {
+.body{
+    width: 100%; 
 	overflow: hidden;
-	padding: 5em 0em;
+	background: #464646;
 }
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
 
-	#portfolio-wrapper
+.body ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+.body li {
+	display: inline-block;
+}
+
+#container {
+	width: fit-content;	
+	margin: 0px auto;
+	height: fit-content;
+}
+
+h1 {
+    font-size: 2em;
+  }
+
+h2 {
+ font-size: 1.5em;
+  }
+
+p {
+ font-size: 1em;
+  }
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(28, 67, 183);
+    font-family: "Garamond", Bookman, Times New Roman, serif;
+
+
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;  
+}
+
+.supersidenav {
+    height: 100%;
+    width: 13.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x:hidden;
+    white-space:normal;
+    padding-top: 20px;
+    background-color: rgb(26, 26, 26);
+}
+
+.supersidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.supersidenav a:hover {
+    color: #f1f1f1;
+}
+
+.body{
+    margin-left: 13.5%;
+}
+
+footer{
+    margin-left: 13.5%;
+}
+
+#portfolio-wrapper
 	{
 		overflow: hidden;
 		padding: 2em 0em;
@@ -207,72 +161,46 @@ a:visited:hover{
 		border-top:solid rgb(204, 204, 204);
 		background-color: #464646;
 	}
-	
 
-/*********************************************************************************/
-/* Heading Titles                                                                */
-/*********************************************************************************/
+.container {
 
-	.title
-	{
-		margin-bottom: 3em;
-	}
-	
-	.title h2
-	{
-		margin: 0;
-		padding: 0;
-		font-size: 2.8em;
-		color: rgba(255,255,255,0.9);
-	}
-	
-	.title .byline
-	{
-		padding-top: 0.50em;
-		letter-spacing: 0.15em;
-		text-transform: uppercase;
-		font-weight: 400;
-		font-size: 1.1em;
-		color: #b9b9b9;
-	}
-
-/*********************************************************************************/
-/* Heading Titles                                                                */
-/*********************************************************************************/
-
-.contact{
-	display: block;
-	padding: 40px 40px 40px 40px;
-	line-height: 70px;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 16px;
-	font-weight: 200;
-	border: none;
-	margin: 5px 5px 5px 5px;
-	list-style: none;
-	line-height: normal;
-	text-align: right;
+    width: fit-content;	
+    margin: 0px auto;
+    height: fit-content;
 }
 
-.contact2{
-	display: block;
-	padding: 40px 40px 40px 0px;
-	line-height: 70px;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 16px;
-	font-weight: 200;
-	border: none;
-	margin: 5px 5px 5px 5px;
-	list-style: none;
-	line-height: normal;
-	text-align: left;
+.title
+{
+    margin-bottom: 3em;
 }
 
-/*********************************************************************************/
-/* Video                                                                         */
-/*********************************************************************************/
+.title h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    color: rgba(255,255,255,0.9);
+}
+
+.title .byline
+{
+    padding-top: 0.50em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #b9b9b9;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000000 repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
 
 #video{
     width: 500px;
