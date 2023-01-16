@@ -63,11 +63,9 @@ p{
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-#origem {
+.origem {
     float: left;
-    position: static;
-    width: 50%;
-    height: 50%;
+    margin-right: 1rem;
 }
 
 
@@ -94,13 +92,6 @@ hr {
 #header {
 	position: relative;
 	overflow: hidden;
-}
-
-#social
-{
-	position: absolute;
-	top: 4em;
-	right: 0;
 }
 
 /** LOGO */

@@ -1,7 +1,7 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    font-size: xx-large;
+    font-size:2vw;
     font-weight: bolder;
 
 }
@@ -10,7 +10,7 @@ h2,
 strong {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    font-size: x-large;
+    font-size: 1vw;
     font-weight: bolder;
 
 }
@@ -36,6 +36,7 @@ li,
 td {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
+    font-size: 0.8vw;
 }
 
 

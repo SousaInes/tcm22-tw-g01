@@ -1,7 +1,6 @@
 html {
     background-color: black;
     viewport-fit: auto;
-    font-size: calc(15px + 0.1vw);
 }
 body {
 	margin: 0px;
