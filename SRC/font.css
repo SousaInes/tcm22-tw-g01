@@ -54,14 +54,15 @@ p {
     vertical-align: middle;
     text-align: justify;
     line-height: normal;
+    padding: 10px;
+
 }
 #p-info{
     vertical-align: middle;
     display: table-cell;
     text-align: center;
     border: 3px;
-    
-
+    padding: 10px;
 }
 div.AL p,
 div.NL p {
@@ -75,10 +76,15 @@ div.NL p {
 
 td {
     text-align: center;
-    padding-top: 1rem;
-    border-spacing: 2px;
+   
 }
 
+#t1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left:5rem ;
+    border-spacing: 2px;
+}
 
 .footer {
     font-size: 2vw;
@@ -99,7 +105,7 @@ td {
 #uniformset {
     width: 400px;
     height: 250px;
-    gap: 50px;
+    padding: 10px;
 }
 
 #uniformshorts {
@@ -110,6 +116,8 @@ td {
 #players {
     width: 500px;
     height: 350px;
+    padding: 10px;
+
 }
 
 #tbplayers {
