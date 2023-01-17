@@ -54,7 +54,7 @@ p {
     vertical-align: middle;
     text-align: justify;
     line-height: normal;
-    padding: 10px;
+    padding: 4vw;
 
 }
 #p-info{
@@ -93,34 +93,34 @@ td {
 
 #beisebol_pro,
 #origem {
-    width: 650px;
-    height: 450px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #uniform {
-    width: 600px;
-    height: 350px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #uniformset {
-    width: 400px;
-    height: 250px;
+    width: 10vw;
+    height: 10vw;
     padding: 10px;
 }
 
 #uniformshorts {
-    width: 400px;
-    height: 480px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #players {
-    width: 500px;
-    height: 350px;
+    width: 10vw;
+    height: 10vw;
     padding: 10px;
 
 }
 
 #tbplayers {
-    width: 270px;
-    height: 200px;
+    width: 15vw;
+    height: 10vw;
 }

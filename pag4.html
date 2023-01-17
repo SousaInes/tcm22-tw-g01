@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="SRC/style2.css" />
     <link rel="stylesheet" type="text/css" href="SRC/font.css" />
     <link rel="stylesheet" type="text/css" href="SRC/forms.css" />
-
+    <link rel="stylesheet" type="text/css" href="SRC/caroussel.css" />
+    <link rel="stylesheet" type="text/css" href="SRC/caroussel.js" />
 </head>
 
 <body>
@@ -430,7 +431,7 @@
                 </tr>
 
                 <tr>
-                    <td id="t1"> 
+                    <td id="t1">
                         <figures>
                             <img id="tbplayers" src="SRC/imagens/StanMusial.jpeg" class="img-fluid" alt="Stan Musial">
                             <figcaption>Stan Musial</figcaption>
@@ -465,7 +466,7 @@
                 </tr>
 
                 <tr>
-                    
+
                     <td id="t1">
                         <figures>
                             <img id="tbplayers" src="SRC/imagens/RobertoClemente.jpeg" class="img-fluid"
@@ -704,106 +705,68 @@
             </p>
         </div>
     </div>
-    <div>
-        <h2 style="float:left"><strong>Menções Importantes: </strong></h2>
-        <div class="mencoes">
-            <table>
-                <tr>
-                    <td>
-                        <figures>
-                            <img id="tbplayers" src="SRC/imagens/FernandoTatisJr..jpeg" class="img-fluid"
-                                alt="Fernando Tatis Jr.">
-                            <figcaption>Fernando Tatis Jr.</figcaption>
-                        </figures>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/JuanSoto.jpeg" class="img-fluid" alt="Juan Soto">
-                            <figcaption>Juan Soto</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/BryceHarper.jpeg" class="img-fluid" alt="Bryce Harper">
-                            <figcaption>Bryce Harper</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/MookieBetts.jpeg" class="img-fluid" alt="Mookie Betts">
-                            <figcaption>Mookie Betts</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/JacobdeGrom.jpeg" class="img-fluid" alt="Jacob deGrom">
-                            <figcaption>Jacob deGrom</figcaption>
-                        </figure>
-                    </td>
-                </tr>
 
-                <tr>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/VladimirGuerreroJr..jpeg" class="img-fluid"
-                                alt="Vladimir Guerrero Jr.">
-                            <figcaption>Vladimir Guerrero Jr.</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/FreddieFreeman.jpeg" class="img-fluid"
-                                alt="Freddie Freeman">
-                            <figcaption>Freddie Freeman</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/RonaldAcuñaJr.jpeg" class="img-fluid"
-                                alt="Ronald Acuña Jr">
-                            <figcaption>Ronald Acuña Jr</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/AnthonyRendon.jpeg" class="img-fluid"
-                                alt="Anthony Rendon">
-                            <figcaption>Anthony Rendon</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/MaxScherzer.jpeg" class="img-fluid" alt="Max Scherzer">
-                            <figcaption>Max Scherzer</figcaption>
-                        </figure>
-                    </td>
-                </tr>
 
-                <tr class="tabela3">
-                    <td>
-                        <figure class="help">
-                            <img id="tbplayers" src="SRC/imagens/DylanCease.jpeg" class="img-fluid" alt="Dylan Cease">
-                            <figcaption>Dylan Cease</figcaption>
-                        </figure>
-                    </td>
+    <div class="mencoes">
+        <div class="slider">
 
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/YordanAlvarez.jpeg" class="img-fluid"
-                                alt="Yordan Alvarez">
-                            <figcaption>Yordan Alvarez</figcaption>
-                        </figure>
-                    </td>
+            <a href="#slide-1">1</a>
+            <a href="#slide-2">2</a>
+            <a href="#slide-3">3</a>
+            <a href="#slide-4">4</a>
+            <a href="#slide-5">5</a>
+            <a href="#slide-6">6</a>
+            <a href="#slide-7">7</a>
+            <a href="#slide-8">8</a>
+            <a href="#slide-9">9</a>
+            <a href="#slide-10">10</a>
+            <a href="#slide-11">11</a>
+            <a href="#slide-12">12</a>
+            <a href="#slide-13">13</a>
 
-                    <td>
-                        <figure>
-                            <img id="tbplayers" src="SRC/imagens/MannyMachado.jpeg" class="img-fluid"
-                                alt="Manny Machado">
-                            <figcaption>Manny Machado</figcaption>
-                        </figure>
-                    </td>
-                </tr>
-            </table>
+            <div class="slides">
+                <div id="slide-1">
+                    <img id="tbplayers" src="SRC/imagens/FernandoTatisJr..jpeg" class="img-fluid"
+                        alt="Fernando Tatis Jr.">
+                </div>
+                <div id="slide-2">
+                    <img id="tbplayers" src="SRC/imagens/JuanSoto.jpeg" class="img-fluid" alt="Juan Soto">
+                </div>
+                <div id="slide-3">
+                    <img id="tbplayers" src="SRC/imagens/BryceHarper.jpeg" class="img-fluid" alt="Bryce Harper">
+                </div>
+                <div id="slide-4">
+                    <img id="tbplayers" src="SRC/imagens/MookieBetts.jpeg" class="img-fluid" alt="Mookie Betts">
+                </div>
+                <div id="slide-5">
+                    <img id="tbplayers" src="SRC/imagens/JacobdeGrom.jpeg" class="img-fluid" alt="Jacob deGrom">
+                </div>
+                <div id="slide-6">
+                    <img id="tbplayers" src="SRC/imagens/VladimirGuerreroJr..jpeg" class="img-fluid"
+                        alt="Vladimir Guerrero Jr.">
+                </div>
+                <div id="slide-7">
+                    <img id="tbplayers" src="SRC/imagens/FreddieFreeman.jpeg" class="img-fluid" alt="Freddie Freeman">
+                </div>
+                <div id="slide-8">
+                    <img id="tbplayers" src="SRC/imagens/RonaldAcuñaJr.jpeg" class="img-fluid" alt="Ronald Acuña Jr">
+                </div>
+                <div id="slide-9">
+                    <img id="tbplayers" src="SRC/imagens/AnthonyRendon.jpeg" class="img-fluid" alt="Anthony Rendon">
+                </div>
+                <div id="slide-10">
+                    <img id="tbplayers" src="SRC/imagens/MaxScherzer.jpeg" class="img-fluid" alt="Max Scherzer">
+                </div>
+                <div id="slide-11">
+                    <img id="tbplayers" src="SRC/imagens/DylanCease.jpeg" class="img-fluid" alt="Dylan Cease">
+                </div>
+                <div id="slide-12">
+                    <img id="tbplayers" src="SRC/imagens/YordanAlvarez.jpeg" class="img-fluid" alt="Yordan Alvarez">
+                </div>
+                <div id="slide-13">
+                    <img id="tbplayers" src="SRC/imagens/MannyMachado.jpeg" class="img-fluid" alt="Manny Machado">
+                </div>
+            </div>
         </div>
     </div>
 </body>
