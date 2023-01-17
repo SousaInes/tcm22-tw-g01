@@ -137,4 +137,14 @@ td {
 #tbplayers {
 
     width: 15vw;
-    height: 10vw;}
+    height: 10vw;
+}
+#p-image{
+    width: 17vw;
+    height: 10vw;
+    padding: 10px;
+}
+#subtitulo4, #subtitulo5{
+    padding: 10px;
+
+}
