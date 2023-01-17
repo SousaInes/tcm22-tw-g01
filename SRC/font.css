@@ -135,16 +135,25 @@ td {
 }
 
 #tbplayers {
-
     width: 15vw;
     height: 10vw;
 }
-#p-image{
-    width: 17vw;
-    height: 10vw;
+
+#p-image {
+    width: 25vw;
+    height: 15vw;
     padding: 10px;
 }
-#subtitulo4, #subtitulo5{
+
+#subtitulo3,
+#subtitulo5,
+#subtitulo4,
+#subtitulo5 {
     padding: 10px;
 
+}
+
+#points {
+    width: 15vw;
+    height: 10vw;
 }
