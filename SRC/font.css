@@ -50,18 +50,20 @@ p {
 
 }
 
-#workpls{
+#workpls {
     vertical-align: baseline;
 
 }
+
 #p-pag4 {
     vertical-align: baseline;
     text-align: justify;
     line-height: normal;
-    padding: 10px;
+    padding: 4vw;
 
 }
-#p-info{
+
+#p-info {
     display: table-cell;
     text-align: center;
     border: 3px;
@@ -69,6 +71,7 @@ p {
     vertical-align: baseline;
 
 }
+
 div.AL p,
 div.NL p {
     background-color: rgba(119, 136, 153, 0.335);
@@ -83,16 +86,17 @@ table {
     border-spacing: 0;
     width: 90%;
 
-  }
-td {
-    text-align: center;
-   
 }
 
-#t1{
+td {
+    text-align: center;
+
+}
+
+#t1 {
     text-align: center;
     padding-top: 2rem;
-    padding-left:5rem ;
+    padding-left: 5rem;
     border-spacing: 2px;
 }
 
@@ -103,34 +107,40 @@ td {
 
 #beisebol_pro,
 #origem {
-    width: 650px;
-    height: 450px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #uniform {
-    width: 600px;
-    height: 350px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #uniformset {
-    width: 400px;
-    height: 250px;
+    width: 10vw;
+    height: 10vw;
     padding: 10px;
 }
 
 #uniformshorts {
-    width: 400px;
-    height: 480px;
+    width: 10vw;
+    height: 10vw;
 }
 
 #players {
-    width: 500px;
-    height: 350px;
+    width: 10vw;
+    height: 10vw;
     padding: 10px;
 
 }
-
+/*
 #tbplayers {
-    width: 270px;
+    <<<<<<< HEAD width: 270px;
     height: 200px;
 }
+
+=======width: 15vw;
+height: 10vw;
+}
+
+/*
