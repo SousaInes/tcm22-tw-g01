@@ -2,6 +2,11 @@
     font-size: 0.9vw;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
@@ -20,6 +25,15 @@ strong,
 
 }
 
+.h2Mencoes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(223, 223, 223);
+    font-size: 1vw;
+    font-weight: bolder;
+    padding-bottom: 100;
+    float: left;
+    
+}
 
 h4 {
     font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +55,7 @@ td,
 input button {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 
 p {
@@ -50,20 +64,34 @@ p {
 }
 
 .p-pag4 {
-    vertical-align:middle;
+    vertical-align: middle;
     text-align: justify;
     line-height: normal;
     padding: 1rem;
 }
 
-.p-infoRight,
 .p-infoLeft {
     text-align: center;
-    border: 3px;
-    padding: 10px;
+    border: 30px;
+    padding: 20px;
     vertical-align: baseline;
-
+    float: left;
+    vertical-align: middle;
+    text-align: justify;
+    line-height: normal;
+    padding: 1rem;
 }
+
+.p-infoRight {
+    float: right;
+    text-align: center;
+    border: 30px;
+    padding: 20px;
+    vertical-align: baseline;
+    vertical-align: middle;
+    text-align: justify;
+    line-height: normal;
+    padding: 1rem;}
 
 div.AL p,
 div.NL p {
@@ -110,7 +138,13 @@ td {
     padding: 10px;
 }
 
-.uniformset,.players {
+.uniformset{
+    float: right;
+    width: 20vw;
+    height: 25vw;
+    padding: 10px;
+}
+.players {
     width: 30vw;
     height: 20vw;
     padding: 10px;
@@ -120,13 +154,30 @@ td {
     width: 15vw;
     height: 20vw;
 }
+
 .tbplayers {
-    width: 15vw;
-    height: 10vw;
+    width: 60vw;
+    height: 35vw;
+    align-content: center;
 }
 
 .p-image {
-    width: 3vw;
+    width: 30vw;
+    height: 20vw;
+    padding: 10px;
+}
+
+.p-imageRight {
+    float: right;
+    width: 30vw;
+    height: 20vw;
+    padding: 10px;
+
+}
+
+.p-imageLeft {
+    float: left;
+    width: 30vw;
     height: 20vw;
     padding: 10px;
 }
