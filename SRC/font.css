@@ -50,19 +50,24 @@ p {
 
 }
 
+#workpls{
+    vertical-align: baseline;
+
+}
 #p-pag4 {
-    vertical-align: middle;
+    vertical-align: baseline;
     text-align: justify;
     line-height: normal;
     padding: 10px;
 
 }
 #p-info{
-    vertical-align: middle;
     display: table-cell;
     text-align: center;
     border: 3px;
     padding: 10px;
+    vertical-align: baseline;
+
 }
 div.AL p,
 div.NL p {
@@ -73,7 +78,12 @@ div.NL p {
     font-size: 0.8vw;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
 
+  }
 td {
     text-align: center;
    
