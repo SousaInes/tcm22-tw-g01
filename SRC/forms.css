@@ -1,0 +1,90 @@
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 1vw 0.5vw;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  width: 10vw;
+}
+
+select{
+  width: 50vw;
+  padding: 0.5vw;
+  border: 1px solid #ccc;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  resize: vertical;
+}
+
+input[type=text], textarea {
+    width: 34vw;
+    padding: 0.5vw;
+    border: 1px solid #ccc;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    resize: vertical;
+  }
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  border: 0vw solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 50vw;
+  height: 35vw;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 50vw;
+  height: 1vw;
+  padding: 1vw;
+  margin: 1vw 0 1vw 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  color: white;
+  padding: 1vw 0.5vw;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  width: 10vw;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

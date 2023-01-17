@@ -1,0 +1,197 @@
+
+    <button class="open-button" onclick="openForm()">Open Form</button>
+
+
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">    
+            <h1>Website Form</h1>
+            <label for="fname">Primeiro Nome</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nome...">
+
+            <label for="lname">Ultimo Nome</label>
+            <input type="text" id="lname" name="lastname" placeholder="Sobrenome...">
+
+            <label for="country">Cidade</label>
+            <select id="country" name="country">
+                <option value="Abrantes">Abrantes</option>
+                <option value="Agualva-Cacém">Agualva-Cacém</option>
+                <option value="Águeda">Águeda</option>
+                <option value="Albergaria-a-Velha">Albergaria-a-Velha</option>
+                <option value="Albufeira">Albufeira</option>
+                <option value="Alcácer do Sal">Alcácer do Sal</option>
+                <option value="Alcobaça">Alcobaça</option>
+                <option value="canada">Agualva-Cacém</option>
+                <option value="usa">Águeda</option>
+                <option value="Alfena">Alfena</option>
+                <option value="Almada">Almada</option>
+                <option value="Almeirim">Almeirim</option>
+                <option value="austrAlverca do Ribatejoalia">Alverca do Ribatejo</option>
+                <option value="Amadora">Amadora</option>
+                <option value="Amarante">Amarante</option>
+                <option value="Amora">Amora</option>
+                <option value="Anadia">Anadia</option>
+                <option value=" Angra do Heroísmo"> Angra do Heroísmo</option>
+                <option value="Aveiro">Aveiro</option>
+                <option value="Barcelos">Barcelos</option>
+                <option value="Barreiro">Barreiro</option>
+                <option value="Beja">Beja</option>
+                <option value="Borba">Borba</option>
+                <option value="Braga">Braga</option>
+                <option value="Bragança">Bragança</option>
+                <option value="Caldas da Rainha">Caldas da Rainha</option>
+                <option value="Câmara de Lobos">Câmara de Lobos</option>
+                <option value="Caniço">Caniço</option>
+                <option value="Cantanhede">Cantanhede</option>
+                <option value="Cartaxo">Cartaxo</option>
+                <option value="Castelo Branco">Castelo Branco</option>
+                <option value="Chaves">Chaves</option>
+                <option value="Coimbra">Coimbra</option>
+                <option value="Costa da Caparica">Costa da Caparica</option>
+                <option value="Covilhã">Covilhã</option>
+                <option value="Elvas">Elvas</option>
+                <option value="Entroncamento">Entroncamento</option>
+                <option value="Ermesinde">Ermesinde</option>
+                <option value="Esmoriz">Esmoriz</option>
+                <option value="Espinho">Espinho</option>
+                <option value="Esposende">Esposende</option>
+                <option value="Estarreja">Estarreja</option>
+                <option value="Estremoz">Estremoz</option>
+                <option value="Évora">Évora</option>
+                <option value="Fafe">Fafe</option>
+                <option value="Faro">Faro</option>
+                <option value="Fátima">Fátima</option>
+                <option value="Felgueiras">Felgueiras</option>
+                <option value="Figueira da Foz">Figueira da Foz</option>
+                <option value="Fiães">Fiães</option>
+                <option value="Freamunde">Freamunde</option>
+                <option value="Funchal">Funchal</option>
+                <option value="Fundão">Fundão</option>
+                <option value="Gafanha da Nazaré">Gafanha da Nazaré</option>
+                <option value="Gandra">Gandra</option>
+                <option value="Gondomar">Gondomar</option>
+                <option value="Gouveia">Gouveia</option>
+                <option value="Guarda">Guarda</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Horta">Horta</option>
+                <option value="Ílhavo">Ílhavo</option>
+                <option value="Lagoa (Açores)">Lagoa (Açores)</option>
+                <option value="Lagoa">Lagoa</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Lamego">Lamego</option>
+                <option value="Leiria">Leiria</option>
+                <option value="Lisboa">Lisboa</option>
+                <option value="Lixa">Lixa</option>
+                <option value="Lordelo">Lordelo</option>
+                <option value="Loulé">Loulé</option>
+                <option value="Loures">Loures</option>
+                <option value="Lourosa">Lourosa</option>
+                <option value="Macedo de Cavaleiros">Macedo de Cavaleiros</option>
+                <option value="Machico">Machico</option>
+                <option value="Maia">Maia</option>
+                <option value="Mangualde">Mangualde</option>
+                <option value="Marco de Canaveses">Marco de Canaveses</option>
+                <option value="Marinha Grande">Marinha Grande</option>
+                <option value="Matosinhos">Matosinhos</option>
+                <option value="Mealhada">Mealhada</option>
+                <option value="Mêda">Mêda</option>
+                <option value="Miranda do Douro">Miranda do Douro</option>
+                <option value="Mirandela">Mirandela</option>
+                <option value="Montemor-o-Novo">Montemor-o-Novo</option>
+                <option value="Montijo">Montijo</option>
+                <option value="Moura">Moura</option>
+                <option value="Odivelas">Odivelas</option>
+                <option value="Olhão">Olhão</option>
+                <option value=" Oliveira de Azeméis"> Oliveira de Azeméis</option>
+                <option value="Oliveira do Bairro">Oliveira do Bairro</option>
+                <option value="Oliveira do Hospital">Oliveira do Hospital</option>
+                <option value="Ourém">Ourém</option>
+                <option value="Ovar">Ovar</option>
+                <option value="Paços de Ferreira">Paços de Ferreira</option>
+                <option value="Paredes">Paredes</option>
+                <option value="Penafiel">Penafiel</option>
+                <option value="Peniche">Peniche</option>
+                <option value="Peso da Régua">Peso da Régua</option>
+                <option value="Pinhel">Pinhel</option>
+                <option value="Pombal">Pombal</option>
+                <option value="Ponta Delgada">Ponta Delgada</option>
+                <option value="Ponte de Sor">Ponte de Sor</option>
+                <option value="Portalegre">Portalegre</option>
+                <option value="Portimão">Portimão</option>
+                <option value="Porto">Porto</option>
+                <option value="Póvoa de Santa Iria">Póvoa de Santa Iria</option>
+                <option value="Póvoa de Varzim">Póvoa de Varzim</option>
+                <option value="Praia da Vitória">Praia da Vitória</option>
+                <option value="Quarteira">Quarteira</option>
+                <option value="Queluz">Queluz</option>
+                <option value="Rebordosa">Rebordosa</option>
+                <option value="Reguengos de Monsaraz">Reguengos de Monsaraz</option>
+                <option value="Ribeira Grande">Ribeira Grande</option>
+                <option value="Rio Maior">Rio Maior</option>
+                <option value="Rio Tinto">Rio Tinto</option>
+                <option value="Sabugal">Sabugal</option>
+                <option value="Sacavém">Sacavém</option>
+                <option value="Samora Correia">Samora Correia</option>
+                <option value="Santa Comba Dão">Santa Comba Dão</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Maria da Feira">Santa Maria da Feira</option>
+                <option value="Santana">Santana</option>
+                <option value="Santarém">Santarém</option>
+                <option value="Santiago do Cacém">Santiago do Cacém</option>
+                <option value="Santo Tirso">Santo Tirso</option>
+                <option value="São João da Madeira">São João da Madeira</option>
+                <option value="São Mamede de Infesta">São Mamede de Infesta</option>
+                <option value="São Pedro do Sul">São Pedro do Sul</option>
+                <option value="Seia">Seia</option>
+                <option value="Seixal">Seixal</option>
+                <option value="Senhora da Hora">Senhora da Hora</option>
+                <option value="Serpa">Serpa</option>
+                <option value="Setúbal">Setúbal</option>
+                <option value="Silves">Silves</option>
+                <option value="Sines">Sines</option>
+                <option value="Tarouca">Tarouca</option>
+                <option value="Tavira">Tavira</option>
+                <option value="Tomar">Tomar</option>
+                <option value="Tondela">Tondela</option>
+                <option value="Torres Novas">Torres Novas</option>
+                <option value="Torres Vedras">Torres Vedras</option>
+                <option value="Trancoso">Trancoso</option>
+                <option value="Trofa">Trofa</option>
+                <option value="Valbom">Valbom</option>
+                <option value="Vale de Cambra">Vale de Cambra</option>
+                <option value="Valença">Valença</option>
+                <option value="Valongo">Valongo</option>
+                <option value="Valpaços">Valpaços</option>
+                <option value="Vendas Novas">Vendas Novas</option>
+                <option value="Viana do Castelo">Viana do Castelo</option>
+                <option value="Vila Baleira">Vila Baleira</option>
+                <option value="Vila do Conde">Vila do Conde</option>
+                <option value="Vila Franca de Xira">Vila Franca de Xira</option>
+                <option value="Vila Nova de Famalicão">Vila Nova de Famalicão</option>
+                <option value="Vila Nova de Foz Côa">Vila Nova de Foz Côa</option>
+                <option value="Vila Nova de Gaia">Vila Nova de Gaia</option>
+                <option value="Vila Nova de Santo André">Vila Nova de Santo André</option>
+                <option value="Vila Real">Vila Real</option>
+                <option value="Vila Real de Santo António">Vila Real de Santo António</option>
+                <option value="Viseu">Viseu</option>
+                <option value="Vizela">Vizela</option>
+            </select>
+
+            <label for="subject">O que podemos melhorar?</label>
+            <textarea id="subject" name="subject" placeholder="Escreve aqui..." style="height:200px"></textarea>
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    </div>
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+
