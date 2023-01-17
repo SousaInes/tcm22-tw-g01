@@ -1,11 +1,11 @@
-*a{
+*a {
     font-size: 0.9vw;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    font-size:2vw;
+    font-size: 2vw;
     font-weight: bolder;
 
 }
@@ -29,7 +29,7 @@ h4 {
 
 }
 
-input{
+input {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 0.8vw;
@@ -39,14 +39,30 @@ p,
 li,
 td,
 lu,
-input
-button {
+input button {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
     font-size: 0.8vw;
 }
 
+p {
+    text-align: justify;
 
+}
+
+#p-pag4 {
+    vertical-align: middle;
+    text-align: justify;
+    line-height: normal;
+}
+#p-info{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    border: 3px;
+    
+
+}
 div.AL p,
 div.NL p {
     background-color: rgba(119, 136, 153, 0.335);
@@ -60,10 +76,11 @@ div.NL p {
 td {
     text-align: center;
     padding-top: 1rem;
+    border-spacing: 2px;
 }
 
 
-.footer{
+.footer {
     font-size: 2vw;
 }
 
@@ -82,8 +99,10 @@ td {
 #uniformset {
     width: 400px;
     height: 250px;
+    gap: 50px;
 }
-#uniformshorts{
+
+#uniformshorts {
     width: 400px;
     height: 480px;
 }
