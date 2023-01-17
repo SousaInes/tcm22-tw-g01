@@ -3,14 +3,7 @@ html {
     viewport-fit: auto;
 }
 
-img {
-    max-width: 100%;
-  }
 
-  html {
-    background-color: black;
-    viewport-fit: auto;
-}
 body {
 	margin: 0px;
 	padding: 0px;
@@ -49,7 +42,6 @@ p{
 	color: white;
 }
 
-
 /*********************************************************************************/
 /* Media                                                                   */
 /*********************************************************************************/
@@ -64,7 +56,13 @@ p{
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-.origem {
+.origem2{
+    float: left;
+	position: relative;
+    margin-right: 1rem;
+}
+
+.origem, {
     float: left;
     margin-right: 1rem;
 }
@@ -269,7 +267,27 @@ a:visited:hover{
 /* Video                                                                         */
 /*********************************************************************************/
 
-#video{
-    width: 500px;
-    height: 300px;
+.video{
+	float: left;
+}
+
+iframe{
+	height: 13.8vw;
+}
+
+/*********************************************************************************/
+/* Lista                                                                         */
+/*********************************************************************************/
+
+.AL{
+	float: left;
+}
+
+.NL{
+	float: left;
+	margin-left: 10rem;
+}
+
+.textinho{
+	float: left;
 }

@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+  }
+
 #points{
     height: 200px;
     width: 320px;

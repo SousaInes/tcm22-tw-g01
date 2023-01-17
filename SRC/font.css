@@ -29,9 +29,17 @@ h4 {
 
 }
 
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 0.8vw;
+}
+
 p,
 li,
 td,
+lu,
+input
 button {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
@@ -45,26 +53,27 @@ div.NL p {
     text-align: justify;
     font-style: oblique;
     font-weight: bold;
+    font-size: 0.8vw;
 }
+
 
 td {
     text-align: center;
+    padding-top: 1rem;
 }
+
 
 .footer{
     font-size: 2vw;
 }
 
-#liga {
-    width: 600px;
-    height: 350px;
-}
 
 #beisebol_pro,
 #origem {
     width: 650px;
     height: 450px;
 }
+
 #uniform {
     width: 600px;
     height: 350px;
