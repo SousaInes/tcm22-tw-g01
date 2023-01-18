@@ -51,6 +51,7 @@ input {
 
 p,
 li,
+ul,
 td,
 input button {
     font-family: Arial, Helvetica, sans-serif;
@@ -100,6 +101,7 @@ div.NL p {
     font-style: oblique;
     font-weight: bold;
     font-size: 0.8vw;
+    bottom:0
 }
 
 table {
@@ -193,4 +195,22 @@ td {
 #points {
     width: 15vw;
     height: 10vw;
+}
+
+.img-fluid{
+    width: 27vw;
+    height: 20vw;
+    float: left;
+}
+
+.img-fluid2{
+    width: 27vw;
+    height: 20vw;
+    float:right;
+}
+
+.this{
+    float: center;
+    align-content: center;
+    position: fixed;
 }
