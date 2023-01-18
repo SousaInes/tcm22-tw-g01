@@ -261,6 +261,8 @@ p {
 
 	}
 .points{
+	display: flex;
+	flex-direction: column;
 		width: 200px !important;
 		height: 130px !important;
 		padding: 0.5px;

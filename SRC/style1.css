@@ -89,6 +89,13 @@ ul {
     border: none;
 }
 
+@media (min-width: 600px) {
+	h1 {
+		font-size: rem;
+	}
+	.ismai {
+		display: none;
+	}
 #menu {
     padding-bottom: 20px;
     overflow: hidden;
@@ -210,7 +217,8 @@ hr {
 	margin: 0;
 	padding: 0;
 }
-#logo h1 {
+
+#logo h1,h2 {
 	letter-spacing: -1px;
 	text-transform: lowercase;
 	padding-left: 50px;
