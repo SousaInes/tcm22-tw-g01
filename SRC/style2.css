@@ -56,6 +56,9 @@ p {
 		font-size: 4rem;
 	}
 }
+@media screen {
+	
+}
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -87,12 +90,16 @@ hr {
 }
 
 .container {
-
 	width: fit-content;
 	margin: 0px auto;
 	height: fit-content;
 }
-
+.p1-image{
+	float: left;
+	width: 19em;
+		height:150vw;
+	margin: 10;
+}
 #header {
 	position: relative;
 	overflow: hidden;
