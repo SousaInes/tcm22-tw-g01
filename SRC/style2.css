@@ -5,10 +5,15 @@ html {
 
 .ismai {
 	color: #fff;
-	text-indent: -9999px;
-	background:url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat, ;
-	width: 20px;
+	text-indent: 999px;
+	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat, ;
+	width: 10px;
 	height: 5px;
+	display: block;
+	box-sizing: border-box;
+	position: static;
+	counter-increment: none;
+	align-content: center;
 }
 
 body {
@@ -63,8 +68,153 @@ p {
 		font-size: 4rem;
 	}
 }
-@media screen {
-	
+
+@media (min-width: 480px) {
+
+	.title,
+	.byline {
+		font-size: 15px;
+		float: left;
+	}
+
+	body {
+		margin: 10px;
+	}
+
+	.navbar {
+		flex-direction: column;
+	}
+
+	.p-infoLeft,
+	.p-infoRight {
+		display: flex;
+		flex-direction: column;
+		font-size: 10px;
+		margin: 4px;
+
+	}
+
+	.p-imageLeft,
+	.p-imageRight,
+	.p-imageLeft1,
+	.p-imageRight1,
+	.p-imageLeft2,
+	.p-imageRight2 {
+		display: flex;
+		flex-direction: column;
+		width: 400px !important;
+		height: 230px !important;
+		padding: 0.5px;
+
+	}
+.points{
+		width: 200px !important;
+		height: 130px !important;
+		padding: 0.5px;
+}
+	p,
+	ol,
+	ul,
+	li {
+		font-size: 50px;
+	}
+
+	.AL,
+	.NL {
+		display: flex;
+		flex-direction: column;
+		margin-left: 40px;
+	}
+
+	.ismai {
+		display: none;
+	}
+
+	#portfolio-wrapper {
+		overflow: hidden;
+		padding: 2px 0px;
+		background: rgba(167, 167, 167, 0.02);
+		background-repeat: repeat;
+		border-top: solid rgb(204, 204, 204);
+		background-color: #464646;
+	}
+
+	#menu {
+		padding-bottom: 20px;
+		overflow: hidden;
+		background-image: url(images/overlay.png);
+		background-repeat: repeat;
+		background-color: #464646;
+		height: 100px !important;
+		width: 100% !important;
+		padding-top: 0px;
+		float: left;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#menu ul {
+		margin: 10px 10px 10px 10px;
+		padding: 15px 10px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+	}
+
+	#menu li {
+		display: inline-block;
+		font-size: 50px;
+		padding: 1vw;
+	}
+
+	#menu a {
+		display: block;
+		padding: 0px 40px 0px 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 200;
+		font-size: 10px;
+		border: none;
+	}
+
+	a:link {
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+		margin:5px;
+		padding-top: 30px;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: greenyellow;
+	}
+
+	a:visited {
+		color: rgba(231, 231, 229, 0.801);
+	}
+
+	a:visited:hover {
+		color: greenyellow;
+		text-decoration: none;
+	}
+}
+
+@media (min-width: 480px) {
+	p li {
+		font-size: 30px;
+		text-align: justify;
+		line-height: normal;
+	}
+
+	ol,
+	ul {
+		font-size: 30px;
+		text-align: justify;
+		line-height: normal;
+	}
+
 }
 
 /*********************************************************************************/
@@ -100,12 +250,14 @@ hr {
 	margin: 0px auto;
 	height: fit-content;
 }
-.p1-image{
+
+.p1-image {
 	float: left;
 	width: 19em;
-		height:150vw;
+	height: 150vw;
 	margin: 10;
 }
+
 #header {
 	position: relative;
 	overflow: hidden;
@@ -156,24 +308,27 @@ hr {
 
 /** MENU */
 
+
 #menu {
-	padding-bottom: 6vw;
+	padding-bottom: 20px;
 	overflow: hidden;
+	background-image: url(images/overlay.png);
 	background-repeat: repeat;
 	background-color: #464646;
-	height: 4vw;
-	width: 97vw;
+	height: 100px;
+	width: 1270px;
 	padding-top: 0vw;
 	float: left;
+	display: flex;
+	flex-direction: column;
 }
 
 #menu ul {
 	margin: 10px 10px 10px 10px;
-	padding: 20px 20px;
+	padding: 15px 10px;
 	list-style: none;
 	line-height: normal;
 	text-align: center;
-	bottom: 10vw;
 }
 
 #menu li {
