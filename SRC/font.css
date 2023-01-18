@@ -175,6 +175,7 @@ td {
     margin-right: 1vw;
 
 }
+
 figure {
     float: right;
     width: 30vw;
@@ -183,7 +184,8 @@ figure {
     margin: 1rem 0;
 
 
-  }
+}
+
 .p-imageLeft {
     float: left;
     width: 30vw;
@@ -257,8 +259,17 @@ figure {
     margin-right: 2vw;
 
 }
+
 .this {
     float: center;
     align-content: center;
     position: fixed;
+}
+
+
+@media (min-width: 480px) {
+	
+   li{
+    font-size: 10px;
+   }
 }
