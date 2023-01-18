@@ -32,7 +32,7 @@ strong,
     font-weight: bolder;
     padding-bottom: 100;
     float: left;
-    
+
 }
 
 h4 {
@@ -72,10 +72,8 @@ p {
 }
 
 .p-infoLeft {
-    text-align: center;
     border: 30px;
     padding: 20px;
-    vertical-align: baseline;
     float: left;
     vertical-align: middle;
     text-align: justify;
@@ -85,14 +83,13 @@ p {
 
 .p-infoRight {
     float: right;
-    text-align: center;
     border: 30px;
     padding: 20px;
-    vertical-align: baseline;
     vertical-align: middle;
     text-align: justify;
     line-height: normal;
-    padding: 1rem;}
+    padding: 1.5rem;
+}
 
 div.AL p,
 div.NL p {
@@ -101,7 +98,7 @@ div.NL p {
     font-style: oblique;
     font-weight: bold;
     font-size: 0.8vw;
-    bottom:0
+    bottom: 0
 }
 
 table {
@@ -140,12 +137,13 @@ td {
     padding: 10px;
 }
 
-.uniformset{
+.uniformset {
     float: right;
     width: 20vw;
     height: 25vw;
     padding: 10px;
 }
+
 .players {
     width: 30vw;
     height: 20vw;
@@ -174,14 +172,68 @@ td {
     width: 30vw;
     height: 20vw;
     padding: 10px;
+    margin-right: 1vw;
 
 }
+figure {
+    float: right;
+    width: 30vw;
+    height: 20vw;
+    padding: 10px;
+    margin: 1rem 0;
 
+
+  }
 .p-imageLeft {
     float: left;
     width: 30vw;
     height: 20vw;
     padding: 10px;
+    margin: 0;
+}
+
+.p-imageLeft1 {
+    float: left;
+    width: 23vw;
+    height: 15vw;
+    padding: 10px;
+}
+
+.p-imageRight1 {
+    float: right;
+    width: 30vw;
+    height: 20vw;
+    padding: 10px;
+    margin-right: 0vw;
+}
+
+.p-imageRight2 {
+    float: right;
+    width: 25vw;
+    height: 15vw;
+    padding: 2px;
+    margin-right: 0.5vw;
+    margin-left: 1vw;
+}
+
+.p-infoLeftLista {
+    border: 20px;
+    padding: 5px;
+    vertical-align: baseline;
+    float: left;
+    text-align: justify;
+    line-height: normal;
+    padding: 2rem;
+}
+
+.h2Left {
+
+    vertical-align: middle;
+    float: left;
+    text-align: justify;
+    line-height: normal;
+    padding: 1rem;
+
 }
 
 #subtitulo3,
@@ -192,24 +244,20 @@ td {
 
 }
 
-#points {
+#subtitulo6 {
+    padding: 10px;
+
+}
+
+.points {
+    float: right;
     width: 15vw;
-    height: 10vw;
-}
+    height: 15vw;
+    padding: 0.5vw;
+    margin-right: 2vw;
 
-.img-fluid{
-    width: 27vw;
-    height: 20vw;
-    float: left;
 }
-
-.img-fluid2{
-    width: 27vw;
-    height: 20vw;
-    float:right;
-}
-
-.this{
+.this {
     float: center;
     align-content: center;
     position: fixed;

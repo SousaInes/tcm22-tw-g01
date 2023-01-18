@@ -3,6 +3,13 @@ html {
 	viewport-fit: auto;
 }
 
+.ismai {
+	color: #fff;
+	text-indent: -9999px;
+	background:url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat, ;
+	width: 20px;
+	height: 5px;
+}
 
 body {
 	margin: 0px;
@@ -56,6 +63,9 @@ p {
 		font-size: 4rem;
 	}
 }
+@media screen {
+	
+}
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -68,8 +78,8 @@ p {
 }
 
 .origem {
-float: left;
-margin-right: 1rem;
+	float: left;
+	margin-right: 1rem;
 }
 
 
@@ -80,22 +90,27 @@ hr {
 /** WRAPPER */
 /** HEADER */
 
-
 #wrapper {
 	background: rgb(0, 0, 0);
 	margin: 0px 20px;
 }
 
 .container {
-
 	width: fit-content;
 	margin: 0px auto;
 	height: fit-content;
 }
-
+.p1-image{
+	float: left;
+	width: 19em;
+		height:150vw;
+	margin: 10;
+}
 #header {
 	position: relative;
 	overflow: hidden;
+	height: 17vw;
+	width: 90vw;
 }
 
 /** LOGO */
@@ -142,26 +157,28 @@ hr {
 /** MENU */
 
 #menu {
-	padding-bottom: 0;
+	padding-bottom: 6vw;
 	overflow: hidden;
-	background-image: url(images/overlay.png);
 	background-repeat: repeat;
 	background-color: #464646;
-	height: 3vw;
+	height: 4vw;
 	width: 97vw;
-	padding-top: 2.5vw;
+	padding-top: 0vw;
 	float: left;
 }
 
 #menu ul {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	margin: 10px 10px 10px 10px;
+	padding: 20px 20px;
 	list-style: none;
 	line-height: normal;
+	text-align: center;
+	bottom: 10vw;
 }
 
 #menu li {
 	display: inline-block;
+	padding: 1vw;
 }
 
 #menu a {
@@ -171,9 +188,10 @@ hr {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 200;
-	font-size: 0.76vw;
+	font-size: 0.78vw;
 	border: none;
 }
+
 
 a:link {
 	color: white;
@@ -207,10 +225,10 @@ a:visited:hover {
 
 #portfolio-wrapper {
 	overflow: hidden;
-	padding: 1em 0em;
-	background-image: url(images/overlay.png);
+	padding: 2em 0em;
+	background: rgba(167, 167, 167, 0.02);
 	background-repeat: repeat;
-	border-top:solid rgb(204, 204, 204);
+	border-top: solid rgb(204, 204, 204);
 	background-color: #464646;
 }
 
@@ -286,15 +304,13 @@ iframe {
 /*********************************************************************************/
 
 .AL {
-	float: left;
+	display: inline-block;
+	text-align: left;
 }
 
 .NL {
-	float: left;
+	text-align: center;
+	display: inline-block;
+	text-align: left;
 	margin-left: 10rem;
 }
-
-.textinho {
-	float: left;
-}
-
