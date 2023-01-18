@@ -24,9 +24,6 @@ p, ol, ul {
 	margin-top: 0px;
 }
 
-p {
-	line-height: 180%;
-}
 
 a img {
 	border: none;
@@ -103,13 +100,14 @@ hr {
 
 #wrapper {
 	background: rgb(0, 0, 0);
-	margin: 0px 20px;
+	margin: 0px 1vw;
 }
 
 .container {
 	width: fit-content;	
-	margin: 0px auto;
+	margin: 1vw auto;
 	height: fit-content;
+	align-content: center;
 }
 
 
@@ -117,6 +115,8 @@ hr {
 {
 	background:url(imagens/banner.jpg);
 	background-size: cover;
+	width: 97vw;
+	height: 35vw;
 }
 
 #header {
@@ -174,9 +174,15 @@ hr {
 /** MENU */
 
 #menu {
-	width: 100%; 
+	padding-bottom: 0;
 	overflow: hidden;
-	background: #464646;
+	background-image: url(images/overlay.png);
+	background-repeat: repeat;
+	background-color: #464646;
+	height: 4vw;
+	width: 97vw;
+	padding-top: 2.5vw;
+	float: left;
 }
 
 #menu ul {
@@ -193,13 +199,14 @@ hr {
 #menu a {
 	display: block;
 	padding: 0px 40px 0px 40px;
-	line-height: 70px;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 200;
+	font-size: 0.78vw;
 	border: none;
 }
+
 
 a:link{
 	color: white;
@@ -258,7 +265,6 @@ a:visited:hover{
 	{
 		overflow: hidden;
 		padding: 2em 0em;
-		background: rgba(167, 167, 167, 0.02);
 		background-image: url(images/overlay.png);
 		background-repeat: repeat;
 		border-top:solid rgb(204, 204, 204);
@@ -271,25 +277,26 @@ a:visited:hover{
 	
 	.column1,
 	.column2,
-	.column3,
-	.column4
-	{
-		position:relative;
-		width: 19em;
-	}
-	
-	.column1,
-	.column2,
 	.column3
 	{
-		float: left;
-		margin-right: 1.5em;
+		float:left;
+		padding-left: 4vw;
+		padding-top: 0;
+		padding-right: 4vw;
+		width: 15vw;
+		height: 25vw;
+	}
+
+	img{
+		height: 12vw;
+		width: 20vw;
 	}
 
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
+	
 	.title
 	{
 		margin-bottom: 3em;
