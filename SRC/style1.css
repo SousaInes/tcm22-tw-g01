@@ -174,12 +174,6 @@ hr {
 	align-content: center;
 }
 
-.container {
-	width: fit-content;
-	margin: 1vw auto;
-	height: fit-content;
-	align-content: center;
-}
 
 #header-wrapper {
 	background: url(imagens/banner.jpg);
@@ -232,6 +226,8 @@ hr {
 #logo p a {
 	color: #ffffff;
 }
+
+
 #logo a {
 	border: none;
 	background: none;

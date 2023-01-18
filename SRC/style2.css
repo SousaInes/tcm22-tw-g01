@@ -400,8 +400,9 @@ hr {
 
 .container {
 	width: fit-content;
-	margin: 0px auto;
+	margin: 1vw auto;
 	height: fit-content;
+	align-content: center;
 }
 
 .p1-image {
@@ -523,10 +524,11 @@ a:visited:hover {
 #portfolio-wrapper {
 	overflow: hidden;
 	padding: 2em 0em;
-	background: rgba(167, 167, 167, 0.02);
+	background-image: url(images/overlay.png);
 	background-repeat: repeat;
 	border-top: solid rgb(204, 204, 204);
 	background-color: #464646;
+	size: ;
 }
 
 
