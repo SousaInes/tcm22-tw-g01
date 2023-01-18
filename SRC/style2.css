@@ -1,6 +1,5 @@
 html {
 	background-color: black;
-	viewport-fit: auto;
 }
 
 @media (min-width: 1200px) {
@@ -159,7 +158,6 @@ html {
 .ismai {
 	color: #fff;
 	text-indent: 999px;
-	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat, ;
 	width: 10px;
 	height: 5px;
 	display: block;
@@ -409,7 +407,7 @@ hr {
 	float: left;
 	width: 19em;
 	height: 150vw;
-	margin: 10;
+	margin: 10px;
 }
 
 #header {
@@ -528,7 +526,7 @@ a:visited:hover {
 	background-repeat: repeat;
 	border-top: solid rgb(204, 204, 204);
 	background-color: #464646;
-	size: ;
+
 }
 
 
