@@ -6,9 +6,9 @@ html {
 .ismai {
 	color: #fff;
 	text-indent: -9999px;
-	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat;
-	width: 20vw;
-	height: 5vw;
+	background:url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat, ;
+	width: 20px;
+	height: 5px;
 }
 
 body {
@@ -227,7 +227,6 @@ a:visited:hover {
 	overflow: hidden;
 	padding: 2em 0em;
 	background: rgba(167, 167, 167, 0.02);
-	background-image: url(images/overlay.png);
 	background-repeat: repeat;
 	border-top: solid rgb(204, 204, 204);
 	background-color: #464646;

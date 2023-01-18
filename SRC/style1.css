@@ -3,12 +3,20 @@ html {
 	viewport-fit: auto;
 }
 
-.ismai{
-	color: #fff;
+.ismai {
+	display: block;
+	-moz-box-sizing: border-box;
 	text-indent: -9999px;
-	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat;
+	box-sizing: border-box;
+	background: url(logos/logo_ismai_site_logo_ismai_small.png) no-repeat;
 	width: 20vw;
-	height: 5vw;
+	/* Width of new image */
+	height: 7vw;
+	/* Height of new image */
+	padding-left: 3vw;
+	/* Equal to width of new image */
+	position: relative;
+	counter-increment:none;
 }
 
 body {
@@ -147,13 +155,13 @@ hr {
 	left: 3vw;
 }
 
-#logo h1,
+#logo h1,h2,
 #logo p {
 	margin: 0;
 	padding: 0;
 }
 
-#logo h1 {
+#logo h1,h2 {
 	letter-spacing: -1px;
 	text-transform: lowercase;
 	padding-left: 50px;
