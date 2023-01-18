@@ -66,11 +66,6 @@ ul {
 /* Media                                                                   */
 /*********************************************************************************/
 
-
-@media (min-width: 600px) {
-	h1 {
-		font-size: rem;
-	}
 	.ismai {
 		display: none;
 	}
@@ -205,7 +200,7 @@ hr {
 }
 
 #logo h1,h2 {
-	letter-spacing: -1px;
+	letter-spacing: 0px;
 	text-transform: lowercase;
 	padding-left: 50px;
 	padding-top: 25px;
