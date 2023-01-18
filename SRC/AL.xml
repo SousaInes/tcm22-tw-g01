@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <root_element>
-<AL>
-<resultado>
+
     <line>
         <nome>HOU</nome>
         <vitorias>106</vitorias>
@@ -93,6 +92,5 @@
         <derrotas>102</derrotas>
         <percentagem>.370</percentagem>
     </line>
-</resultado> 
-</AL>
+
 </root_element>
