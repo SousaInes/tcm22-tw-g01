@@ -3,19 +3,12 @@ html {
 	viewport-fit: auto;
 }
 
-.ismai {
-	display: block;
+.ismai{
+	color: #fff;
 	text-indent: -9999px;
-	box-sizing: border-box;
-	background: url(logos/logo_ismai_site_logo_ismai_small.png) no-repeat;
+	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat;
 	width: 20vw;
-	/* Width of new image */
-	height: 7vw;
-	/* Height of new image */
-	padding-left: 3vw;
-	/* Equal to width of new image */
-	position:static;
-	counter-increment:none;
+	height: 5vw;
 }
 
 body {
@@ -24,8 +17,6 @@ body {
 	background: #000000 repeat;
 	color: rgba(0, 0, 0, .8);
 }
-
-
 h1,
 h2,
 h3 {
@@ -33,69 +24,243 @@ h3 {
 	padding: 0;
 	text-transform: uppercase;
 }
-
 h2 {
 	padding: 0px 0px 30px 0px;
 }
-
 p,
 ol,
 ul {
 	margin-top: 0px;
 }
-
-
 a img {
 	border: none;
 }
-
 p {
 	color: white;
 }
-
 ul {
 	text-align: center;
 }
-
-.main {
-	flex: 70%;
-	background-color: rgb(0, 0, 0);
-	padding: 20px;
-  }
 /*********************************************************************************/
 /* Media                                                                   */
 /*********************************************************************************/
-
-	.ismai {
-		display: none;
-	}
+@media (min-width: 600px) {
+    h1 {
+        font-size: rem;
+    }
+    .ismai {
+        display: none;
+    }
 #menu {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-image: url(images/overlay.png);
+    background-repeat: repeat;
+    background-color: #464646;
+    height:100px !important;
+    width: 100% !important;
+    padding-top: 0px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu ul {
+    margin: 10px 10px 10px 10px;
+    padding: 15px 10px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 1vw;
+}
+
+#menu a {
+    display: block;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.78vw;
+    border: none;
+}
+
+#menu {
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-image: url(images/overlay.png);
+    background-repeat: repeat;
+    background-color: #464646;
+    height: 100px;
+    width:1270px;
+    padding-top: 0px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu ul {
+    margin: 10px 10px 10px 10px;
+    padding: 15px 10px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 1px;
+}
+
+#menu a {
+    display: block;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1px;
+    letter-spacing: 1px;
+    margin: 10px auto;
+    border: none;
+}
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+.image {
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+.image img {
+	display: block;
+	width: 100%;
+}
+.image-full {
+	display: block;
+	width: 100%;
+	margin: 0 0 3em 0;
+}
+.image-left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
+.image-centered {
+	display: block;
+	margin: 0 0 2em 0;
+}
+.image-centered img {
+	margin: 0 auto;
+	width: auto;
+}
+hr {
+	display: none;
+}
+/** WRAPPER */
+/** HEADER */
+#wrapper {
+	background: rgb(0, 0, 0);
+	margin: 0px 1vw;
+}
+.container {
+	width: fit-content;
+	margin: 1vw auto;
+	height: fit-content;
+	align-content: center;
+}
+
+.container {
+	width: fit-content;
+	margin: 1vw auto;
+	height: fit-content;
+	align-content: center;
+}
+
+#header-wrapper {
+	background: url(imagens/banner.jpg);
+	background-size: cover;
+	width: 97vw;
+	height: 35vw;
+}
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 364px;
+	height: 30vw;
+	width: 90vw;
+	font-size: ;
+}
+
+#social {
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+/** LOGO */
+
+#logo {
+	position: absolute;
+	top: 3em;
+	left: 3rem;
+	top: 3vw;
+	left: 3vw;
+}
+
+#logo h1,
+#logo p {
+	margin: 0;
+	padding: 0;
+}
+#logo h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	padding-left: 50px;
+	padding-top: 25px;
+	color: rgb(173, 173, 173);
+}
+#logo p {
+	padding: 0px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+#logo p a {
+	color: #ffffff;
+}
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+/** MENU */
+#menu {
+	padding-bottom: 7vw;
 	overflow: hidden;
 	background-image: url(images/overlay.png);
 	background-repeat: repeat;
 	background-color: #464646;
-	height:100px !important;
-	width: 100% !important;
-	padding-top: 0px;
+	height: 4vw;
+	width: 97vw;
+	padding-top: 0vw;
 	float: left;
-	display: flex;
-	flex-direction: column;
 }
-
 #menu ul {
 	margin: 10px 10px 10px 10px;
-	padding: 15px 10px;
+	padding: 20px 20px;
 	list-style: none;
 	line-height: normal;
 	text-align: center;
 }
-
 #menu li {
 	display: inline-block;
 	padding: 1vw;
 }
-
 #menu a {
 	display: block;
 	padding: 0px 40px 0px 40px;
@@ -106,216 +271,45 @@ ul {
 	font-size: 0.78vw;
 	border: none;
 }
-}
-
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-.image {
-	display: inline-block;
-	border: 1px solid rgba(0, 0, 0, .1);
-}
-
-.image img {
-	display: block;
-	width: 100%;
-}
-
-.image-full {
-	display: block;
-	width: 100%;
-	margin: 0 0 3em 0;
-}
-
-.image-left {
-	float: left;
-	margin: 0 2em 2em 0;
-}
-
-.image-centered {
-	display: block;
-	margin: 0 0 2em 0;
-}
-
-.image-centered img {
-	margin: 0 auto;
-	width: auto;
-}
-
-
-hr {
-	display: none;
-}
-
-/** WRAPPER */
-/** HEADER */
-
-
-#wrapper {
-	background: rgb(0, 0, 0);
-	margin: 0px 1vw;
-}
-
-.container {
-	width: fit-content;
-	margin: 1vw auto;
-	height: fit-content;
-	align-content: center;
-}
-
-
-#header-wrapper {
-	background: url(imagens/banner.jpg);
-	background-size: cover;
-	width: 97vw;
-	height: 35vw;
-}
-
-#header {
-	position: relative;
-	overflow: hidden;
-	height: 30vw;
-	width: 90vw;
-}
-
-#social {
-	position: absolute;
-	top: 4em;
-	right: 0;
-}
-
-/** LOGO */
-
-#logo {
-	position: absolute;
-	top: 3vw;
-	left: 3vw;
-}
-
-#logo h1,h2,
-#logo p {
-	margin: 0;
-	padding: 0;
-}
-
-#logo h1,h2 {
-	letter-spacing: 0px;
-	text-transform: lowercase;
-	padding-left: 50px;
-	padding-top: 25px;
-	color: rgb(173, 173, 173);
-}
-
-#logo p {
-	padding: 0px;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	color: #ffffff;
-}
-
-#logo p a {
-	color: #ffffff;
-}
-
-#logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-}
-
-/** MENU */
-
-#menu {
-	padding-bottom: 20px;
-	overflow: hidden;
-	background-image: url(images/overlay.png);
-	background-repeat: repeat;
-	background-color: #464646;
-	height: 100px;
-	width:1270px;
-	padding-top: 0px;
-	float: left;
-	display: flex;
-	flex-direction: column;
-}
-
-#menu ul {
-	margin: 10px 10px 10px 10px;
-	padding: 15px 10px;
-	list-style: none;
-	line-height: normal;
-	text-align: center;
-}
-
-#menu li {
-	display: inline-block;
-	padding: 1px;
-}
-
-#menu a {
-	display: block;
-	padding: 0px 40px 0px 40px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 200;
-	font-size: 0.78px;
-	border: none;
-}
-
-
 a:link {
 	color: white;
 	text-decoration: none;
 }
-
 a:hover {
 	text-decoration: none;
 	color: greenyellow;
 }
-
 a:visited {
 	color: rgba(231, 231, 229, 0.801);
 }
-
 a:visited:hover {
 	color: greenyellow;
 	text-decoration: none;
 }
-
 /** PAGE */
-
 #page {
 	overflow: hidden;
 	padding: 5em 0em;
 }
-
 #page img {
 	margin-bottom: 1em;
 }
-
 #page .title {
 	margin-bottom: 2em;
 }
-
 #page .title h2 {
 	font-weight: 400;
 	color: white;
-	margin-top: 1vw;
+margin-top: 1vw;
 }
-
 #page .title .byline {
 	display: block;
 	padding-bottom: 2em;
 	color: white;
 }
-
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
-
 #portfolio-wrapper {
 	overflow: hidden;
 	padding: 2em 0em;
@@ -324,11 +318,9 @@ a:visited:hover {
 	border-top: solid rgb(204, 204, 204);
 	background-color: #464646;
 }
-
 /*********************************************************************************/
 /* Colunas                                                                       */
 /*********************************************************************************/
-
 .column1,
 .column2,
 .column3,
@@ -341,7 +333,6 @@ a:visited:hover {
 	height: 25vw;
 	position: sticky;
 }
-
 .column4 {
 	float: left;
 	padding-left: 4vw;
@@ -349,31 +340,25 @@ a:visited:hover {
 	padding-bottom: 2vw;
 	width: 15vw;
 	height: 25vw;
-
+	
 }
-
 img {
 	height: 12vw;
 	width: 20vw;
 }
-
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
-
-
 .title {
 	margin-bottom: 3em;
 	padding-top: 1vw;
 }
-
 .title h2 {
 	margin-bottom: 2em;
 	margin: 0;
 	padding: 0;
 	color: rgba(255, 255, 255, 0.9);
 }
-
 .title .byline {
 	padding-top: 0.50em;
 	letter-spacing: 0.15em;
@@ -381,25 +366,23 @@ img {
 	font-weight: 400;
 	color: #b9b9b9;
 }
-
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
-
 .contact {
 	display: block;
 	padding: 40px 40px 40px 40px;
-	line-height: 10px;
+	line-height: 70px;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 200;
 	border: none;
-	margin: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
 	list-style: none;
+	line-height: normal;
 	text-align: right;
 }
-
 .contact2 {
 	display: block;
 	padding: 40px 40px 40px 0px;
@@ -407,6 +390,7 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 200;
+	font-size: 16px;
 	border: none;
 	margin: 5px 5px 5px 5px;
 	list-style: none;

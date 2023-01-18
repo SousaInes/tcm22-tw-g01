@@ -124,6 +124,17 @@ td {
     font-size: 2vw;
 }
 
+.header {
+    font-size: 2vw;
+    padding: 5vw;
+}
+
+.header2 {
+    font-size: 0.8vw;
+    padding-left:2vw;
+    border:0;
+    float:top
+}
 
 #beisebol_pro,
 #origem {
