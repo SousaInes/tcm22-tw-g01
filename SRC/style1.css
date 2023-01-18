@@ -1,6 +1,5 @@
 html {
 	background-color: black;
-	viewport-fit: auto;
 }
 
 .ismai{
@@ -46,7 +45,7 @@ ul {
 /*********************************************************************************/
 @media (min-width: 600px) {
     h1 {
-        font-size: rem;
+        font-size: 1rem;
     }
     .ismai {
         display: none;
@@ -194,7 +193,6 @@ hr {
 	height: 364px;
 	height: 30vw;
 	width: 90vw;
-	font-size: ;
 }
 
 #social {
