@@ -3,6 +3,14 @@ html {
 	viewport-fit: auto;
 }
 
+.ismai{
+	color: #fff;
+	text-indent: -9999px;
+	background: url("logos/logo_ismai_site_logo_ismai_small.png") no-repeat;
+	width: 20vw;
+	height: 5vw;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -125,9 +133,8 @@ hr {
 #header {
 	position: relative;
 	overflow: hidden;
-	height: 364px;
-	padding: 25px;
-
+	height: 30vw;
+	width: 90vw;
 }
 
 #social {
@@ -140,8 +147,8 @@ hr {
 
 #logo {
 	position: absolute;
-	top: 3em;
-	left: 3rem;
+	top: 3vw;
+	left: 3vw;
 }
 
 #logo h1,
