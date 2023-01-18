@@ -783,55 +783,25 @@
         <span class="dot2" onclick="currentSlide(12, 'mySlides2', 'dot2')"></span>
         <span class="dot2" onclick="currentSlide(13, 'mySlides2', 'dot2')"></span>
     </div>
+    
+    <h2>AL Geral</h2>
+
+    <table id="MainTable">
+        <tbody id="BodyRows"></tbody>
+    </table>
+    
     <p></p>
-    <script>
-        let slideIndex = 1;
-        let slideIndex1 = 1;
-
-        function showSlides(n, slide, dot) {
-            let i;
-            let slides = document.getElementsByClassName(slide);
-            let dots = document.getElementsByClassName(dot);
-
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[n - 1].style.display = "block";
-            console.log(dots[n - 1]);
-            dots[n - 1].className += " active";
-        }
-
-        showSlides(slideIndex, "mySlides", "dot");
-        showSlides(slideIndex1, "mySlides2", "dot2");
-
-        function plusSlides(n, slide, dot) {
-            if (dot === 'dot') {
-                showSlides(slideIndex += n, slide, dot);
-            } else if (dot === 'dot2') {
-                showSlides(slideIndex1 += n, slide, dot);
-            }
-        }
-
-        function currentSlide(n, slide, dot) {
-            showSlides(n, slide, dot);
-        }
-
-    </script>
+    <script src="SRC/caroussel.js"></script>
 
     <button class="open-button" onclick="openForm()">Open Form</button>
     <div class="form-popup" id="myForm">
         <form action="/action_page.php" class="form-container">
             <h1>Website Form</h1>
             <label for="fname">Primeiro Nome</label>
-            <input type="text" id="fname" name="firstname" placeholder="Nome...">
+            <input type="text" id="fname" name="firstname" value="" placeholder="Nome...">
 
             <label for="lname">Ultimo Nome</label>
-            <input type="text" id="lname" name="lastname" placeholder="Sobrenome...">
+            <input type="text" id="lname" name="lastname" value="" placeholder="Sobrenome...">
 
             <label for="country">Cidade</label>
             <select id="country" name="country">
@@ -999,7 +969,7 @@
             </select>
 
             <label for="subject" class="submit">O que podemos melhorar?</label>
-            <textarea id="subject" name="subject" placeholder="Escreve aqui..." style="height:200px"></textarea>
+            <textarea id="subject" name="subject" value="" placeholder="Escreve aqui..." style="height:200px"></textarea>
 
             <input type="submit" value="Submit">
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -1024,9 +994,8 @@
         </div>
 
     </footer>
-    <script src="SRC/Form.js">
-
-    </script>
+    <script src="SRC/Form.js"></script>
+    <script src="SRC/AL.js">    </script>
 </body>
 
 </html>
