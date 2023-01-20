@@ -66,10 +66,10 @@ a {
 
 .main-nav {
   grid-area: nav;
-  margin: 16px;
-  padding: 30px;
+  margin: 21px;
+  padding: 20px;
   height: 80px;
-  width: 96.5%;
+  width: 97.2%;
   background-color: #eee;
   overflow: hidden;
   scroll-behavior: smooth;
@@ -91,7 +91,11 @@ a {
   display: inline-block;
   bottom: 45px;
 }
-
+.indextitle{
+  font-size: 18px;
+  padding-bottom: 35px;
+padding: 0;
+}
 .nav-font::before {
   content: attr(data-item);
   transition: all 3s ease-in-out;
@@ -107,6 +111,7 @@ a {
 
 .nav-font:hover {
   margin: 1%;
+  bottom: 5px;
   transition: all 0.8s ease-in-out;
 }
 
@@ -124,9 +129,9 @@ a {
 }
 
 img {
-  height: 12vw;
-  width: 20vw;
-  margin: 15px;
+  height: 20vw;
+  width: 30vw;
+  margin: 20px;
 }
 
 .content {
@@ -138,7 +143,7 @@ img {
   grid-area: content;
   margin: 0px;
   text-align: center;
-  margin: 5px;
+  margin: 20px;
   font-size: 15px;
   color: #ccc;
   text-transform: uppercase;
@@ -149,16 +154,19 @@ img {
 .item1 {
   grid-column: col-start / span 1;
   grid-row: 1;
+
 }
 
 .item2 {
   grid-column: col-start 2 / span 1;
   grid-row: 1;
+
 }
 
 .item3 {
   grid-column: col-start 3 / span 1;
   grid-row: 1;
+
 }
 
 .item4 {
@@ -179,7 +187,7 @@ img {
 }
 
 .item7 {
-  grid-column: col-start 1/ span 1;
+  grid-column: col-start 2/ span 1;
   grid-row: 3;
 }
 
@@ -196,10 +204,10 @@ img {
   grid-area: footer;
   margin: 20px;
   top: 10px;
-  left: 10px;
+  left: 0px;
   padding: 20px;
   height: 140px;
-  width: 98%;
+  width: 97%;
   background-color: #eee;
   overflow: hidden;
   scroll-behavior: smooth;
@@ -225,13 +233,13 @@ img {
   .main-head {
     grid-area: header;
     margin: 0;
-    height: 190px;
+    height: 180px;
 
   }
 
   .header-image {
     width: 365px;
-    height: 175px;
+    height: 160px;
     opacity: 4;
   }
 
