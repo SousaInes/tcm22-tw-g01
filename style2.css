@@ -1,0 +1,114 @@
+html {
+    background-color: #121212;
+    margin: 5px;
+    display: grid;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    font-family: Hack, monospace;
+  }
+
+div {
+    color: #727272;
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+    color: #8f8f8f;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/*HEADER*/
+
+.main-head {
+    grid-area: header;
+    height: 164px;
+    width: 97.2%;
+    padding: 1px;
+    position: absolute;
+    background-color: #464646;
+    color: white;
+}
+.header-text{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+/*HEADER*/
+
+/*NAVBAR*/
+
+.main-nav {
+    grid-area: nav;
+    margin: 21px;
+    padding: 20px;
+    padding-bottom: 35px;
+    height: 100px;
+    width: 97.2%;
+    background-color: #eee;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .nav-font {
+    list-style: none;
+    margin: 4px;
+    top: 5px;
+    font-size: 10px;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    position: relative;
+    display: block;
+    display: inline-block;
+    bottom: 45px;
+  }
+  .indextitle{
+    font-size: 18px;
+    padding-bottom: 35px;
+  padding: 0;
+  }
+  .nav-font::before {
+    content: attr(data-item);
+    transition: all 3s ease-in-out;
+    color: #8254ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+  
+  .nav-font:hover {
+    margin: 1%;
+    bottom: 5px;
+    transition: all 0.8s ease-in-out;
+    height: fit-content;
+  
+  }
+  
+  /*NAVBAR*/
