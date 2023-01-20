@@ -14,6 +14,7 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: Hack, monospace;
+  width: 100%;
 }
 
 div {
