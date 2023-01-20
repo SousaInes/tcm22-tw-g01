@@ -67,7 +67,7 @@ a {
 .main-nav {
   grid-area: nav;
   margin: 16px;
- padding: 30px;
+  padding: 30px;
   height: 80px;
   width: 96.5%;
   background-color: #eee;
@@ -212,7 +212,7 @@ img {
 
 /*RESPONSIVO*/
 
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
   .wrapper {
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
@@ -224,6 +224,8 @@ img {
 
   .main-head {
     grid-area: header;
+    margin: 0;
+    height: 190px;
 
   }
 
@@ -244,23 +246,15 @@ img {
   }
 
   .main-nav {
-    height: 300px;
-    width: 318px;
-    margin-bottom: 100px;
-    margin: 28px;
-    text-align: center;
+    display: none;
+
   }
 
   .nav-font {
-    font-size: 10px;
-    text-align: center;
-    bottom: 15px;
+    display: none;
+
   }
 
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
 
   img {
     height: 250px;
@@ -307,8 +301,10 @@ img {
 
 
   .main-footer {
-    width: 320px;
-    background-color: #eee;
+    width: 321px;
+    left: 3px;
+    font-size: 13px;
+padding-bottom: 30px;    background-color: #eee;
     overflow: hidden;
     scroll-behavior: smooth;
   }
