@@ -184,7 +184,7 @@ hr {
 #header-wrapper {
 	background: url(imagens/banner.jpg);
 	background-size: cover;
-	width: 97vw;
+	width:480px;
 	height: 35vw;
 }
 #header {
@@ -398,4 +398,5 @@ img {
 	list-style: none;
 	line-height: normal;
 	text-align: left;
+}
 }
