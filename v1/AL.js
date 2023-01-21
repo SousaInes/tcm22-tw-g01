@@ -2,7 +2,7 @@ let xmlContent = '';
 let tableBooks = document.getElementById('books')
 let tgeste =window.location.href;
 console.log(tgeste)
-fetch (tgeste + '/AL.xml').then((response)=>{
+fetch (tgeste + 'AL.xml').then((response)=>{
     console.log('')
     response.text().then((xml)=>{
         xmlContent = xml;
